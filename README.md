@@ -1,6 +1,6 @@
 <div align="center">
   <br />
-  <img src="./img/programmers_logo.png" alt="Programmers solving with JS" height="300px" />
+  <img src="./img/programmers_logo.png" alt="Programmers solving with JS" height="200px" />
   <br />
   <h2>프로그래머스 문제 풀이 with JavaScript</h2>
   <br />
