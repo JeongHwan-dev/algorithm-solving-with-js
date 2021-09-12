@@ -41,6 +41,23 @@ function solution2(array, commands) {
   return answer;
 }
 
+// 솔루션 2 코드를 개선한 솔루션 3
+function solution3(array, commands) {
+  // map() 메서드를 사용해 명령문 탐색하고 새로운 배열 만들기
+  let answer = commands.map((command) => {
+    // 시작점, 끝점, 타겟 인덱스 변수에 값 할당
+    const [start, end, idx] = command;
+
+    // 요구하는 범위만큼 잘라온 후 오름차순으로 배열해서 임시 배열에 저장
+    let tmp = array.slice(start - 1, end).sort((a, b) => a - b);
+
+    // 타겟 값을 리턴
+    return tmp[idx - 1];
+  });
+
+  return answer;
+}
+
 let array = [1, 5, 2, 6, 3, 7, 4];
 let commands = [
   [2, 5, 3],
@@ -50,3 +67,4 @@ let commands = [
 
 console.log(solution1(array, commands));
 console.log(solution2(array, commands));
+console.log(solution3(array, commands));
