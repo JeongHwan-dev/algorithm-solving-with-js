@@ -6,7 +6,7 @@ function solution(bridge_length, weight, truck_weights) {
   let sec = 0;
   let bridge = new Array(bridge_length).fill(0);
 
-  while (queue.length) {
+  while (bridge.length) {
     sec++;
     bridge.shift();
 
@@ -14,7 +14,7 @@ function solution(bridge_length, weight, truck_weights) {
       if (sum(bridge) + truck_weights[0] <= weight) {
         bridge.push(truck_weights.shift());
       } else {
-        queue.push(0);
+        bridge.push(0);
       }
     }
   }
