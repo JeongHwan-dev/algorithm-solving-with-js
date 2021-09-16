@@ -16,7 +16,8 @@ function translate(eng) {
   return number[eng];
 }
 
-function solution(s) {
+// 변환 함수를 이용한 솔루션1
+function solution1(s) {
   let answer;
   // 문자 단위로 split 해서 배열에 넣기
   const arr = s.split('');
@@ -51,6 +52,7 @@ function solution(s) {
   return answer;
 }
 
+// split(), join() 메서드들을 이용한 솔루션2
 function solution2(s) {
   // 숫자 배열
   const numbers = [
