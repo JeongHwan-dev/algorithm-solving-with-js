@@ -12,7 +12,7 @@ function isPrime(n) {
   return true;
 }
 
-function solution(nums) {
+function solution1(nums) {
   let answer = 0;
   let n = nums.length;
   let m = 3;
@@ -34,6 +34,28 @@ function solution(nums) {
   }
 
   DFS(0, 0);
+
+  return answer;
+}
+
+function solution2(nums) {
+  let answer = 0;
+  let n = nums.length;
+  let m = 3;
+
+  function DFS(L, s, sum) {
+    if (L === m) {
+      if (isPrime(sum)) {
+        answer++;
+      }
+    } else {
+      for (let i = s; i < n; i++) {
+        DFS(L + 1, i + 1, sum + nums[i]);
+      }
+    }
+  }
+
+  DFS(0, 0, 0);
 
   return answer;
 }
