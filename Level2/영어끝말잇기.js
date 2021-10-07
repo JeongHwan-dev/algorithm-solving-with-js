@@ -22,7 +22,3 @@ function solution(n, words) {
 
   return [playerNum, round];
 }
-
-console.log(
-  solution(2, ['hello', 'one', 'even', 'never', 'now', 'world', 'draw'])
-);
