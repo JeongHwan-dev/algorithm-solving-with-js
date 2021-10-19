@@ -19,5 +19,3 @@ function solution(sticker) {
 
   return maxSum;
 }
-
-console.log(solution([14, 6, 5, 11, 3, 9, 2, 10]));
