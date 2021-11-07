@@ -1,3 +1,4 @@
+// Solution 1
 function solution(n, times) {
   const _times = times.slice();
 
@@ -7,7 +8,7 @@ function solution(n, times) {
   let rightPoint = n * _times[_times.length - 1];
   let minTotalTime = rightPoint;
 
-  while (left <= right) {
+  while (leftPoint <= rightPoint) {
     const mid = Math.floor((leftPoint + rightPoint) / 2);
     let count = 0;
 
@@ -15,7 +16,7 @@ function solution(n, times) {
       count += Math.floor(mid / time);
 
       if (count >= n) {
-        minTotalTime = Math.min(minTotalTime, min);
+        minTotalTime = Math.min(minTotalTime, mid);
         return;
       }
     });
