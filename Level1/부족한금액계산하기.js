@@ -23,3 +23,16 @@ function solution2(price, money, count) {
 
   return result;
 }
+
+// Solution 3
+function solution3(price, money, count) {
+  let totalPrice = 0;
+
+  for (let n = 1; n <= count; n++) {
+    totalPrice += price * n;
+  }
+
+  const result = money - totalPrice > 0 ? 0 : totalPrice - money;
+
+  return result;
+}
