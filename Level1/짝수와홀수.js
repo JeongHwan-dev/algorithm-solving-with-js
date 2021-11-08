@@ -1,11 +1,19 @@
-function solution(num) {
-  let answer = '';
+// Solution 1
+function solution1(num) {
+  let result = '';
 
   if (num % 2 === 0) {
-    answer = 'Even';
+    result = 'Even';
   } else {
-    answer = 'Odd';
+    result = 'Odd';
   }
 
-  return answer;
+  return result;
+}
+
+// Solution 2
+function solution2(num) {
+  const result = num % 2 === 0 ? 'Even' : 'Odd';
+
+  return result;
 }
