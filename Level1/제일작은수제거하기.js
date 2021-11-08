@@ -1,4 +1,5 @@
-function solution(arr) {
+// Solution 1
+function solution1(arr) {
   let answer = [];
   let minIdx = 0;
   let min = arr[minIdx];
@@ -20,5 +21,17 @@ function solution(arr) {
   return answer;
 }
 
-let arr = [10];
-console.log(solution(arr));
+// Solution 2
+function solution2(arr) {
+  const _arr = arr.slice();
+  const minNum = Math.min(..._arr);
+  const minNumIndex = _arr.indexOf(minNum);
+
+  _arr.splice(minNumIndex, 1);
+
+  if (_arr.length === 0) {
+    _arr.push(-1);
+  }
+
+  return _arr;
+}
