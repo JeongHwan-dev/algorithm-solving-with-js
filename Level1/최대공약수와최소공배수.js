@@ -1,42 +1,62 @@
+// Solution 1
 function solution1(n, m) {
-  let answer = [];
-  let min = Math.min(n, m);
+  const result = [];
+  const min = Math.min(n, m);
   let max = Math.max(n, m);
 
   for (let i = min; i > 0; i--) {
     if (n % i === 0 && m % i === 0) {
-      answer.push(i);
+      result.push(i);
       break;
     }
   }
 
   while (true) {
     if (max % n === 0 && max % m === 0) {
-      answer.push(max);
+      result.push(max);
       break;
     } else {
       max++;
     }
   }
 
-  return answer;
+  return result;
 }
 
+// Solution 2
 function solution2(n, m) {
-  let answer = [];
+  const result = [];
 
-  const gcd = (a, b) => {
+  const getGCD = (a, b) => {
     if (b === 0) {
       return a;
     } else {
-      return gcd(b, a % b);
+      return getGCD(b, a % b);
     }
   };
 
-  const lcm = (a, b) => (a * b) / gcd(a, b);
+  const getLCM = (a, b) => (a * b) / getGCD(a, b);
 
-  answer.push(gcd(n, m));
-  answer.push(lcm(n, m));
+  result.push(getGCD(n, m));
+  result.push(getLCM(n, m));
 
-  return answer;
+  return result;
+}
+
+// Solution 3
+function getGCD(num1, num2) {
+  return num2 === 0 ? num1 : getGCD(num2, num1 % num2);
+}
+
+function getLCM(num1, num2) {
+  return (num1 * num2) / getGCD(num1, num2);
+}
+
+function solution3(n, m) {
+  const result = [];
+
+  result.push(getGCD(n, m));
+  result.push(getLCM(n, m));
+
+  return result;
 }
