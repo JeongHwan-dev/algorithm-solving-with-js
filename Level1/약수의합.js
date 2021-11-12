@@ -1,11 +1,12 @@
-function solution(n) {
-  let answer = n;
+// Solution 1
+function solution1(n) {
+  let sumOfDivisors = n;
 
-  for (let i = 1; i <= Math.floor(n / 2); i++) {
-    if (n % i === 0) {
-      answer += i;
+  for (let num = 1; num <= Math.floor(n / 2); num++) {
+    if (n % num === 0) {
+      sumOfDivisors += num;
     }
   }
 
-  return answer;
+  return sumOfDivisors;
 }
