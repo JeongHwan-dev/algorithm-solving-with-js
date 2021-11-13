@@ -1,27 +1,30 @@
-function solution1(phone_number) {
-  let answer = '';
-  let len = phone_number.length;
-  let lastFourNumber = phone_number.substr(len - 4, 4);
+// Solution 1
+function solution1(phoneNumber) {
+  const phoneNumberLength = phoneNumber.length;
+  const lastPhoneNumber = phoneNumber.slice(phoneNumberLength - 4);
+  const asterisk = Array.from(
+    { length: phoneNumberLength - 4 },
+    () => '*'
+  ).join('');
+  const hiddenPhoneNumber = asterisk + lastPhoneNumber;
 
-  for (let i = 0; i < len - 4; i++) {
-    answer += '*';
-  }
-
-  answer += lastFourNumber;
-
-  return answer;
+  return hiddenPhoneNumber;
 }
 
-function solution2(phone_number) {
-  let answer = phone_number
+// Solution 2
+function solution2(phoneNumber) {
+  const hiddenPhoneNumber = phoneNumber
     .split('')
-    .map((num, idx) => {
-      if (idx < phone_number.length - 4) {
-        return '*';
-      }
-      return num;
-    })
+    .map((num, index) => (index < phoneNumber.length - 4 ? '*' : num))
     .join('');
 
-  return answer;
+  return hiddenPhoneNumber;
+}
+
+// Solution 3
+function solution3(phoneNumber) {
+  const hiddenPhoneNumber =
+    '*'.repeat(phoneNumber.length - 4) + phoneNumber.slice(-4);
+
+  return hiddenPhoneNumber;
 }
