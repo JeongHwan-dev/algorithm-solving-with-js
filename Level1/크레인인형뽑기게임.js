@@ -1,52 +1,58 @@
+// Solution 1
 function solution1(board, moves) {
-  let answer = 0;
-  let stack = [];
+  const _board = board.map((row) => row.slice());
+  const stack = [];
+  let popCount = 0;
 
-  for (let n of moves) {
-    let idx = n - 1;
+  for (const n of moves) {
+    const idx = n - 1;
 
-    for (let r = 0; r < board.length; r++) {
-      if (board[r][idx] !== 0) {
-        stack.push(board[r][idx]);
-        board[r][idx] = 0;
+    for (let r = 0; r < _board.length; r++) {
+      if (_board[r][idx] !== 0) {
+        stack.push(_board[r][idx]);
+        _board[r][idx] = 0;
         break;
       }
     }
 
-    let sLen = stack.length;
+    const sLen = stack.length;
 
     if (sLen >= 2 && stack[sLen - 1] === stack[sLen - 2]) {
       stack.pop();
       stack.pop();
-      answer += 2;
+      popCount += 2;
     }
   }
 
-  return answer;
+  return popCount;
 }
 
-function solution2(board, moves) {
-  let answer = 0;
-  let stack = [];
+// Solution 2
+function solution(board, moves) {
+  const _board = board.map((row) => row.slice());
+  const stack = [];
+  let popCount = 0;
 
-  moves.forEach((pos) => {
-    for (let i = 0; i < board.length; i++) {
-      if (board[i][pos - 1] !== 0) {
-        let tmp = board[i][pos - 1];
+  moves.forEach((move) => {
+    const y = move - 1;
 
-        board[i][pos - 1] = 0;
+    for (let x = 0; x < _board.length; x++) {
+      const item = _board[x][y];
 
-        if (tmp === stack[stack.length - 1]) {
+      if (item !== 0) {
+        if (stack.length > 0 && stack[stack.length - 1] === item) {
           stack.pop();
-          answer += 2;
+          popCount += 2;
         } else {
-          stack.push(tmp);
+          stack.push(item);
         }
+
+        _board[x][y] = 0;
 
         break;
       }
     }
   });
 
-  return answer;
+  return popCount;
 }
