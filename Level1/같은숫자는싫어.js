@@ -1,17 +1,30 @@
+// Solution 1
 function solution1(arr) {
-  let answer = [];
+  const filteredArr = [];
 
   for (let i = 0; i < arr.length; i++) {
     if (i === 0) {
-      answer.push(arr[i]);
+      filteredArr.push(arr[i]);
     } else if (arr[i] !== arr[i - 1]) {
-      answer.push(arr[i]);
+      filteredArr.push(arr[i]);
     }
   }
 
-  return answer;
+  return filteredArr;
 }
 
+// Solution 2
 function solution2(arr) {
-  return arr.filter((val, idx) => val !== arr[idx + 1]);
+  const filteredArr = arr.filter((num, index) => num !== arr[index + 1]);
+
+  return filteredArr;
+}
+
+// Solution 3
+function solution3(arr) {
+  const filteredArr = arr.filter((num, index) =>
+    index === 0 ? true : num !== arr[index - 1]
+  );
+
+  return filteredArr;
 }
