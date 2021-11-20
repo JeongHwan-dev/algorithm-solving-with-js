@@ -1,4 +1,5 @@
-function solution(num) {
+// Solution 1
+function solution1(num) {
   let answer = 0;
   let cnt = 0;
 
@@ -19,4 +20,21 @@ function solution(num) {
   answer = cnt;
 
   return answer;
+}
+
+// Solution 2
+function solution2(num) {
+  let count = 0;
+
+  while (num !== 1) {
+    num = num % 2 === 0 ? num / 2 : num * 3 + 1;
+    count++;
+
+    if (count === 500) {
+      count = -1;
+      break;
+    }
+  }
+
+  return count;
 }
