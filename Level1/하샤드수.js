@@ -1,5 +1,5 @@
+// Solution 1
 function solution1(x) {
-  let answer = true;
   const arr = x
     .toString()
     .split('')
@@ -10,41 +10,34 @@ function solution1(x) {
     sum += n;
   }
 
-  if (x % sum !== 0) {
-    answer = false;
-  }
+  const isHarshadNumber = x % sum === 0 ? true : false;
 
-  return answer;
+  return isHarshadNumber;
 }
 
+// Solution 2
 function solution2(x) {
-  let answer = true;
   const sum = x
     .toString()
     .split('')
-    .map((n) => Number(n))
+    .map((n) => parseInt(n))
     .reduce((prev, curr) => prev + curr, 0);
+  const isHarshadNumber = x % sum === 0 ? true : false;
 
-  if (x % sum !== 0) {
-    answer = false;
-  }
-
-  return answer;
+  return isHarshadNumber;
 }
 
+// Solution 3
 function solution3(x) {
-  let answer = true;
-  let n = x;
+  let num = x;
   let sum = 0;
 
-  while (n !== 0) {
-    sum += n % 10;
-    n = Math.floor(n / 10);
+  while (num > 0) {
+    sum += num % 10;
+    num = Math.floor(num / 10);
   }
 
-  if (x % sum !== 0) {
-    answer = false;
-  }
+  const isHarshadNumber = x % sum === 0 ? true : false;
 
-  return answer;
+  return isHarshadNumber;
 }
