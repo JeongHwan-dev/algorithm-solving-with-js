@@ -1,31 +1,9 @@
+// Solution 1
 function solution1(s) {
-  let answer;
+  let convertedStr;
   const arr = s.split(' ');
 
-  answer = arr
-    .map((word) => {
-      let tmp = word.split('');
-
-      for (let i = 0; i < tmp.length; i++) {
-        if (i % 2 === 0) {
-          tmp[i] = tmp[i].toUpperCase();
-        } else {
-          tmp[i] = tmp[i].toLowerCase();
-        }
-      }
-
-      return tmp.join('');
-    })
-    .join(' ');
-
-  return answer;
-}
-
-function solution2(s) {
-  let answer;
-  const arr = s.split(' ');
-
-  answer = arr
+  convertedStr = arr
     .map((word) => {
       let tmp = word.split('');
 
@@ -37,5 +15,22 @@ function solution2(s) {
     })
     .join(' ');
 
-  return answer;
+  return convertedStr;
+}
+
+// Solution 2
+function solution2(s) {
+  const convertedStr = s
+    .split(' ')
+    .map((word) =>
+      word
+        .split('')
+        .map((alphabet, index) =>
+          index % 2 === 0 ? alphabet.toUpperCase() : alphabet.toLowerCase()
+        )
+        .join('')
+    )
+    .join(' ');
+
+  return convertedStr;
 }
