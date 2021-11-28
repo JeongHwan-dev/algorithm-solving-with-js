@@ -1,5 +1,6 @@
+// Solution 1
 function solution1(progresses, speeds) {
-  let answer = [];
+  const answer = [];
 
   while (progresses.length !== 0) {
     let cnt = 0;
@@ -22,6 +23,7 @@ function solution1(progresses, speeds) {
   return answer;
 }
 
+// Solution 2
 class Queue {
   constructor() {
     this._arr = [];
@@ -41,15 +43,15 @@ class Queue {
 }
 
 function solution2(progresses, speeds) {
-  let answer = [];
-  let pQueue = new Queue();
-  let sQueue = new Queue();
+  const answer = [];
+  const pQueue = new Queue();
+  const sQueue = new Queue();
 
-  for (let n of progresses) {
+  for (const n of progresses) {
     pQueue.enqueue(n);
   }
 
-  for (let n of speeds) {
+  for (const n of speeds) {
     sQueue.enqueue(n);
   }
 
@@ -74,9 +76,10 @@ function solution2(progresses, speeds) {
   return answer;
 }
 
+// Solution 3
 function solution3(progresses, speeds) {
   let answer = [0];
-  let days = progresses.map((progress, idx) =>
+  const days = progresses.map((progress, idx) =>
     Math.ceil((100 - progress) / speeds[idx])
   );
   let maxDay = days[0];
@@ -91,4 +94,28 @@ function solution3(progresses, speeds) {
   }
 
   return answer;
+}
+
+// Solution 4
+function solution4(progresses, speeds) {
+  const restProgresses = progresses.map((progress, index) =>
+    Math.ceil((100 - progress) / speeds[index])
+  );
+  const result = [];
+  let currentProcess = restProgresses[0];
+  let count = 1;
+
+  for (let i = 1; i < restProgresses.length; i++) {
+    if (restProgresses[i] > currentProcess) {
+      result.push(count);
+      count = 1;
+      currentProcess = restProgresses[i];
+    } else {
+      count++;
+    }
+  }
+
+  result.push(count);
+
+  return result;
 }
