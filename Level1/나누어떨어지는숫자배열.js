@@ -1,29 +1,40 @@
-function solution(arr, divisor) {
-  let answer = [];
+// Solution 1
+function solution1(arr, divisor) {
+  const result = [];
 
-  for (let n of arr) {
-    if (n % divisor === 0) {
-      answer.push(n);
+  for (const num of arr) {
+    if (num % divisor === 0) {
+      result.push(num);
     }
   }
 
-  if (answer.length > 0) {
-    answer.sort((a, b) => a - b);
+  if (result.length > 0) {
+    result.sort((a, b) => a - b);
   } else {
-    answer.push(-1);
+    result.push(-1);
   }
 
-  return answer;
+  return result;
 }
 
-function solution(arr, divisor) {
-  let answer = arr.filter((n) => n % divisor === 0);
+// Solution 2
+function solution2(arr, divisor) {
+  const result = arr.filter((num) => num % divisor === 0);
 
-  if (answer.length > 0) {
-    answer.sort((a, b) => a - b);
+  if (result.length > 0) {
+    result.sort((a, b) => a - b);
   } else {
-    answer.push(-1);
+    result.push(-1);
   }
 
-  return answer;
+  return result;
+}
+
+// Solution 3
+function solution3(arr, divisor) {
+  const result = arr.filter((num) => num % divisor === 0);
+
+  result.length > 0 ? result.sort((a, b) => a - b) : result.push(-1);
+
+  return result;
 }
