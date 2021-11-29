@@ -1,39 +1,52 @@
-function countDivisor(n) {
-  let cnt = 0;
+// Solution 1
+function countDivisor(num) {
+  let count = 0;
 
-  for (let i = 1; i <= n; i++) {
-    if (n % i === 0) {
-      cnt++;
+  for (let i = 1; i <= num; i++) {
+    if (num % i === 0) {
+      count++;
     }
   }
 
-  return cnt;
+  return count;
 }
 
 function solution1(left, right) {
-  let answer = 0;
+  let result = 0;
 
-  for (let n = left; n <= right; n++) {
-    if (countDivisor(n) % 2 === 0) {
-      answer += n;
+  for (let num = left; num <= right; num++) {
+    if (countDivisor(num) % 2 === 0) {
+      result += num;
     } else {
-      answer -= n;
+      result -= num;
     }
   }
 
-  return answer;
+  return result;
 }
 
+// Solution 2
 function solution2(left, right) {
-  let answer = 0;
+  let result = 0;
 
-  for (let n = left; n <= right; n++) {
-    if (Number.isInteger(Math.sqrt(n))) {
-      answer -= n;
+  for (let num = left; num <= right; num++) {
+    if (Number.isInteger(Math.sqrt(num))) {
+      result -= n;
     } else {
-      answer += n;
+      result += n;
     }
   }
 
-  return answer;
+  return result;
+}
+
+// Solution 3
+function solution3(left, right) {
+  let result = 0;
+
+  for (let num = left; num <= right; num++) {
+    result = Number.isInteger(Math.sqrt(num)) ? result - num : result + num;
+  }
+
+  return result;
 }
