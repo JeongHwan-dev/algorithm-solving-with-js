@@ -1,44 +1,77 @@
-// includes() 메서드를 활용한 솔루션 1
-function solution(numbers) {
-  let answer = [];
+// Solution 1
+function solution1(numbers) {
+  const uniqueSumArray = [];
 
-  // 반복문을 통해 두 개씩 짝짓기
   for (let i = 0; i < numbers.length - 1; i++) {
     for (let j = i + 1; j < numbers.length; j++) {
-      // 선택된 두 개의 수를 더해서 sum 변수에 할당
-      let sum = numbers[i] + numbers[j];
+      const sum = numbers[i] + numbers[j];
 
-      // 만약 결과 배열에 sum 값을 포함하고 있지 않다면
-      if (!answer.includes(sum)) {
-        // sum 값을 결과 배열에 추가
-        answer.push(sum);
+      if (!uniqueSumArray.includes(sum)) {
+        uniqueSumArray.push(sum);
       }
     }
   }
 
-  // 결과 배열을 오름차순으로 초기화
-  answer.sort((a, b) => a - b);
+  uniqueSumArray.sort((a, b) => a - b);
 
-  return answer;
+  return uniqueSumArray;
 }
 
-// Set 객체를 활용한 솔루션 2
+// Solution 2
 function solution2(numbers) {
-  let answer = [];
-  const tmp = [];
+  const sumArray = [];
 
-  // 반복문을 통해 두 개씩 짝짓기
   for (let i = 0; i < numbers.length - 1; i++) {
     for (let j = i + 1; j < numbers.length; j++) {
-      // 선택된 두 개의 수를 더해서 tmp 배열에 추가
-      tmp.push(numbers[i] + numbers[j]);
+      sumArray.push(numbers[i] + numbers[j]);
     }
   }
 
-  // Set 객체를 통해 중복 제거 후 다시 배열로 변경
-  answer = [...new Set(tmp)];
-  // 결과 배열을 오름차순으로 초기화
-  answer.sort((a, b) => a - b);
+  const set = new Set(sumArray);
+  const result = [...set];
 
-  return answer;
+  result.sort((a, b) => a - b);
+
+  return result;
+}
+
+// Solution 3
+function solution3(numbers) {
+  const sumArray = [];
+
+  for (let i = 0; i < numbers.length - 1; i++) {
+    for (let j = i + 1; j < numbers.length; j++) {
+      sumArray.push(numbers[i] + numbers[j]);
+    }
+  }
+
+  const uniqueSumArray = sumArray.filter((num, index) => {
+    return sumArray.indexOf(num) === index;
+  });
+
+  uniqueSumArray.sort((a, b) => a - b);
+
+  return uniqueSumArray;
+}
+
+// Solution 4
+function solution4(numbers) {
+  const sumArray = [];
+  const uniqueSumArray = [];
+
+  for (let i = 0; i < numbers.length - 1; i++) {
+    for (let j = i + 1; j < numbers.length; j++) {
+      sumArray.push(numbers[i] + numbers[j]);
+    }
+  }
+
+  sumArray.forEach((num) => {
+    if (!uniqueSumArray.includes(num)) {
+      uniqueSumArray.push(num);
+    }
+  });
+
+  uniqueSumArray.sort((a, b) => a - b);
+
+  return uniqueSumArray;
 }
