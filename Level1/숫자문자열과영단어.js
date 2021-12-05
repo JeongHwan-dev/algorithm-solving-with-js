@@ -1,4 +1,4 @@
-// 영어가 입력되면 숫자로 리턴하는 함수
+// Solution 1
 function translate(eng) {
   const number = {
     zero: '0',
@@ -16,45 +16,34 @@ function translate(eng) {
   return number[eng];
 }
 
-// 변환 함수를 이용한 솔루션1
 function solution1(s) {
-  let answer;
-  // 문자 단위로 split 해서 배열에 넣기
+  let convertedS;
   const arr = s.split('');
-  // 숫자만을 담을 배열
   const arrN = [];
-  // 영어 단어 변수
   let eng = '';
 
-  // 반복문을 이용하여 단어 탐색
   for (let i = 0; i < arr.length; i++) {
-    // 숫자가 아니면 옳바른 영어 단어가 나올 때까지 단어를 조합한 후
     if (isNaN(arr[i])) {
       eng = eng.concat(arr[i]);
 
-      // 옳바른 단어가 조합되면 변환 함수를 통해 숫자로 변경하여 숫자 배열에 push
       if (translate(eng)) {
-        let num = translate(eng);
+        const num = translate(eng);
 
         arrN.push(num);
         eng = '';
       }
-    }
-    // 숫자가 들어오면 숫자 배열에 push
-    else {
+    } else {
       arrN.push(arr[i]);
     }
   }
 
-  // 숫자 배열을 하나의 문자열로 합치고 타입을 숫자로 변경
-  answer = Number(arrN.join(''));
+  convertedS = Number(arrN.join(''));
 
-  return answer;
+  return convertedS;
 }
 
-// split(), join() 메서드들을 이용한 솔루션2
+// Solution 2
 function solution2(s) {
-  // 숫자 배열
   const numbers = [
     'zero',
     'one',
@@ -68,12 +57,53 @@ function solution2(s) {
     'nine',
   ];
 
-  // 숫자 배열을 돌면서 그에 해당하는 값이 있으면
-  // split 시키고 idx를 join 하기
   numbers.forEach((number, idx) => {
     s = s.split(number).join(idx);
   });
 
-  // 타입을 숫자로 변경하여 리턴
   return Number(s);
+}
+
+// Solution 3
+function solution3(s) {
+  const numbers = [
+    'zero',
+    'one',
+    'two',
+    'three',
+    'four',
+    'five',
+    'six',
+    'seven',
+    'eight',
+    'nine',
+  ];
+  let convertedS = s;
+
+  numbers.forEach((number, index) => {
+    convertedS = convertedS.split(number).join(index);
+  });
+
+  convertedS = parseInt(convertedS);
+
+  return convertedS;
+}
+
+// Solution 4
+function solution4(s) {
+  const convertedS = parseInt(
+    s
+      .replace(/zero/g, 0)
+      .replace(/one/g, 1)
+      .replace(/two/g, 2)
+      .replace(/three/g, 3)
+      .replace(/four/g, 4)
+      .replace(/five/g, 5)
+      .replace(/six/g, 6)
+      .replace(/seven/g, 7)
+      .replace(/eight/g, 8)
+      .replace(/nine/g, 9)
+  );
+
+  return convertedS;
 }
