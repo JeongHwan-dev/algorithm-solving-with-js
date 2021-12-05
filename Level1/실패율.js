@@ -1,34 +1,42 @@
-function solution(N, stages) {
-  let answer;
-  // 실패율들을 담을 배열
-  let failLates = [];
-  // 남은 전체 플레이어 수
-  let playerN = stages.length;
+// Solution 1
+function solution1(N, stages) {
+  const failureLates = [];
+  let numberOfParticipants = stages.length;
 
-  // 반복문을 통해 전체 스테이지 돌기
-  for (let i = 1; i <= N; i++) {
-    // 각 스테이지별 실패한 플레이어 수 체크
-    let failN = stages.filter((value) => value === i).length;
-    // 실패율 계산
-    let failLate = failN / playerN;
+  for (let stageNum = 1; stageNum <= N; stageNum++) {
+    const numberOfFailure = stages.filter((stage) => stage === stageNum).length;
+    const failureLate = numberOfFailure / numberOfParticipants;
 
-    // [현재 스테이지, 현재 스테이지의 실패율] 배열을 실패율들을 담는 배열에 넣기
-    failLates.push([i, failLate]);
-    // 남은 플레이어 수를 실패한 플레이어 수만큼 감소
-    playerN -= failN;
+    failureLates.push([stageNum, failureLate]);
+    numberOfParticipants -= numberOfFailure;
   }
 
-  // 실패율 배열을 실패율 기준으로 내림차순으로 정렬하고
-  // 만약 값이 동일하다면 스테이지를 기준으로 오름차순으로 정렬
-  failLates.sort((a, b) => (a[1] === b[1] ? a[0] - b[0] : b[1] - a[1]));
+  failureLates.sort((a, b) => (a[1] === b[1] ? a[0] - b[0] : b[1] - a[1]));
 
-  // 정렬된 실패율 배열에서 스테이지 값만 추출해서 새 배열로 생성
-  answer = failLates.map((failLate) => failLate[0]);
+  const sortedStages = failureLates.map((failureLate) => failureLate[0]);
 
-  return answer;
+  return sortedStages;
 }
 
-let N = 5;
-let stages = [2, 1, 2, 6, 2, 4, 3, 3];
+// Solution 2
+function solution2(N, stages) {
+  const stagesFailureLate = [];
 
-console.log(solution(N, stages));
+  for (let stageNum = 1; stageNum <= N; stageNum++) {
+    const numberOfFailure = stages.filter((stage) => stage === stageNum).length;
+    const numberOfParticipants = stages.filter(
+      (stage) => stage >= stageNum
+    ).length;
+    const failureLate = numberOfFailure / numberOfParticipants;
+
+    stagesFailureLate.push([stageNum, failureLate]);
+  }
+
+  stagesFailureLate.sort((a, b) => (a[1] === b[1] ? a[0] - b[0] : b[1] - a[1]));
+
+  const sortedStages = stagesFailureLate.map(
+    (stageFailureLate) => stageFailureLate[0]
+  );
+
+  return sortedStages;
+}
