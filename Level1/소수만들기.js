@@ -67,7 +67,6 @@ function solution3(nums) {
   let primeNumberCount = 0;
   const n = 3;
   const len = nums.length;
-  const check = Array.from({ length: n }, () => 0);
 
   function DFS(l, count, sum) {
     if (count === n) {
@@ -81,9 +80,7 @@ function solution3(nums) {
     if (l === len) {
       return;
     } else {
-      check[l] = 1;
       DFS(l + 1, count + 1, sum + nums[l]);
-      check[l] = 0;
       DFS(l + 1, count, sum);
     }
   }
