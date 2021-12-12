@@ -1,16 +1,15 @@
 // Solution 1
-// sort() 메서드를 사용한 솔루션
 function solution1(d, budget) {
   const _d = d.slice();
-  let sum = 0;
+  let totalCost = 0;
   let i;
 
   _d.sort((a, b) => a - b);
 
   for (i = 0; i < d.length; i++) {
-    sum += _d[i];
+    totalCost += _d[i];
 
-    if (sum > budget) {
+    if (totalCost > budget) {
       break;
     }
   }
@@ -19,19 +18,39 @@ function solution1(d, budget) {
 }
 
 // Solution 2
-// sort() 메서드와 forEach() 메서드를 사용한 솔루션
 function solution2(d, budget) {
   const _d = d.slice();
-  let sum = 0;
-  let count = 0;
+  let totalCost = 0;
+  let maxDepartmentCount = 0;
 
   _d.sort((a, b) => a - b).forEach((cost) => {
-    sum += cost;
+    totalCost += cost;
 
-    if (sum <= budget) {
-      count++;
+    if (totalCost <= budget) {
+      maxDepartmentCount++;
     }
   });
 
-  return count;
+  return maxDepartmentCount;
+}
+
+// Solution 3
+function solution3(d, budget) {
+  const _d = d.slice();
+  let totalCost = 0;
+  let maxDepartmentCount = 0;
+
+  _d.sort((a, b) => a - b);
+
+  for (const cost of _d) {
+    totalCost += cost;
+
+    if (totalCost <= budget) {
+      maxDepartmentCount++;
+    } else {
+      break;
+    }
+  }
+
+  return maxDepartmentCount;
 }
