@@ -1,5 +1,4 @@
 // Solution 1
-// if 문을 이용한 솔루션
 function solution1(dartResult) {
   let totalScore = 0;
   const darts = dartResult.split('');
@@ -44,7 +43,6 @@ function solution1(dartResult) {
 }
 
 // Solution 2
-// switch 문을 이용한 솔루션
 function solution2(dartResult) {
   let totalScore = 0;
   const darts = dartResult.split('');
@@ -85,6 +83,73 @@ function solution2(dartResult) {
   });
 
   totalScore = stack.reduce((acc, cur) => acc + cur, 0);
+
+  return totalScore;
+}
+
+// Solution 3
+function solution3(dartResult) {
+  const totalDarts = [];
+  const gameScores = [];
+  let darts = [];
+
+  for (const element of dartResult) {
+    if (!isNaN(element)) {
+      if (darts.length > 0) {
+        if (element === '0' && darts[0] === '1') {
+          darts = ['10'];
+          continue;
+        } else {
+          totalDarts.push(darts);
+        }
+      }
+
+      darts = [element];
+    } else {
+      darts.push(element);
+    }
+  }
+
+  if (darts.length > 0) {
+    totalDarts.push(darts);
+  }
+
+  totalDarts.forEach((darts, index) => {
+    const [score, bonus, option] = darts;
+    let n;
+
+    switch (bonus) {
+      case 'S':
+        n = 1;
+        break;
+      case 'D':
+        n = 2;
+        break;
+      case 'T':
+        n = 3;
+        break;
+    }
+
+    let gameScore = Math.pow(score, n);
+
+    if (option) {
+      switch (option) {
+        case '*':
+          gameScore *= 2;
+
+          if (index > 0) {
+            gameScores[index - 1] *= 2;
+          }
+          break;
+        case '#':
+          gameScore *= -1;
+      }
+    }
+
+    gameScores.push(gameScore);
+  });
+
+  const totalScore = gameScores.reduce((acc, score) => acc + score, 0);
 
   return totalScore;
 }
