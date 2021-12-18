@@ -1,5 +1,4 @@
 // Solution 1
-// 함수들을 이용해 단계별로 진행한 솔루션
 function level1(id) {
   const convertedID = id.toLowerCase();
 
@@ -101,7 +100,6 @@ function solution1(newID) {
 }
 
 // Solution 2
-// replace() 메서드와 정규 표현식을 사용한 솔루션
 function solution2(newID) {
   const recommendationID = newID
     .toLowerCase()
@@ -111,9 +109,8 @@ function solution2(newID) {
     .replace(/^$/, 'a')
     .slice(0, 15)
     .replace(/\.$/, '');
-  const idLength = recommendationID.length;
 
-  return idLength > 2
+  return recommendationID.length > 2
     ? recommendationID
-    : recommendationID.padEnd(3, recommendationID[idLength - 1]);
+    : recommendationID.padEnd(3, recommendationID[recommendationID.length - 1]);
 }
