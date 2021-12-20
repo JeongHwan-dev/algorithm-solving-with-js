@@ -1,24 +1,43 @@
-function solution(numbers, target) {
-  let answer = 0;
+// Solution 1
+function solution1(numbers, target) {
   const n = numbers.length;
+  let count = 0;
 
-  // 깊이 우선 탐색 이용
   function DFS(i, sum) {
     if (i === n) {
-      // 만약 합계가 타겟 넘버와 같다면 answer에 +1
       if (sum === target) {
-        answer++;
+        count++;
       }
-      return;
     } else {
-      // 현재 값을 더하는 경우
       DFS(i + 1, sum + numbers[i]);
-      // 현재 값을 빼는 경우
       DFS(i + 1, sum - numbers[i]);
     }
   }
 
   DFS(0, 0);
 
-  return answer;
+  return count;
+}
+
+// Solution 2
+function solution2(numbers, target) {
+  const n = numbers.length;
+  const ways = [];
+
+  function DFS(i, array) {
+    if (i === n) {
+      ways.push(array);
+    } else {
+      DFS(i + 1, [...array, `+${numbers[i]}`]);
+      DFS(i + 1, [...array, `-${numbers[i]}`]);
+    }
+  }
+
+  DFS(0, []);
+
+  const count = ways
+    .map((way) => way.reduce((acc, cur) => acc + parseInt(cur), 0))
+    .filter((sum) => sum === target).length;
+
+  return count;
 }
