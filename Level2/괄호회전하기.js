@@ -1,12 +1,12 @@
 // 솔루션1
-function check(arr) {
+function checkBrackets(brackets) {
   const stack = [];
 
-  if (arr[0] === ')' && arr[0] === '}' && arr[0] === ']') {
+  if (brackets[0] === ')' && brackets[0] === '}' && brackets[0] === ']') {
     return false;
   }
 
-  for (let e of arr) {
+  for (const e of brackets) {
     if (e === ')' && stack[stack.length - 1] === '(') {
       stack.pop();
     } else if (e === '}' && stack[stack.length - 1] === '{') {
@@ -22,59 +22,53 @@ function check(arr) {
 }
 
 function solution1(s) {
-  let answer = 0;
   const queue = s.split('');
+  let rightBracketsCount = 0;
 
-  for (let i = 0; i < queue.length; i++) {
-    const tmp = queue.slice();
-
-    if (check(tmp)) {
-      answer++;
+  for (let i = 0; i < s.length; i++) {
+    if (checkBrackets(queue)) {
+      rightBracketsCount++;
     }
 
-    let dequeueNum = queue.shift();
-    queue.push(dequeueNum);
+    const firstElement = queue.shift();
+
+    queue.push(firstElement);
   }
 
-  return answer;
+  return rightBracketsCount;
 }
 
 // 솔루션2
-function check(arr) {
-  const stack = [];
-  const brackets = {
+function checkBrackets(brackets) {
+  const bracketObj = {
     '(': ')',
-    '{': '}',
     '[': ']',
+    '{': '}',
   };
+  const stack = [];
 
-  for (let e of arr) {
-    const peek = stack[stack.length - 1];
+  for (const bracket of brackets) {
+    const lastElement = stack[stack.length - 1];
 
-    if (brackets[peek] === e) {
-      stack.pop();
-    } else {
-      stack.push(e);
-    }
+    bracketObj[lastElement] === bracket ? stack.pop() : stack.push(bracket);
   }
 
   return stack.length > 0 ? false : true;
 }
 
-function solution(s) {
-  let answer = 0;
+function solution2(s) {
   const queue = s.split('');
+  let rightBracketsCount = 0;
 
-  for (let i = 0; i < queue.length; i++) {
-    const tmp = queue.slice();
-
-    if (check(tmp)) {
-      answer++;
+  for (let i = 0; i < s.length; i++) {
+    if (checkBrackets(queue)) {
+      rightBracketsCount++;
     }
 
-    let dequeue = queue.shift();
-    queue.push(dequeue);
+    const firstElement = queue.shift();
+
+    queue.push(firstElement);
   }
 
-  return answer;
+  return rightBracketsCount;
 }
