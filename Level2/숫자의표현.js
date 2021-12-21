@@ -1,6 +1,7 @@
-function solution(n) {
-  let answer = 0;
+// Solution 1
+function solution1(n) {
   const queue = [];
+  let count = 0;
   let sum = 0;
 
   for (let i = 1; i <= n; i++) {
@@ -12,9 +13,9 @@ function solution(n) {
     }
 
     if (sum === n) {
-      answer++;
+      count++;
     }
   }
 
-  return answer;
+  return count;
 }
