@@ -1,23 +1,54 @@
-function solution(s) {
-  let answer = true;
-  const arr = s.split('');
+// Solution 1
+function solution1(s) {
   const stack = [];
 
-  if (arr.length % 2 !== 0 || arr[0] === ')' || arr[arr.length - 1] === '(') {
+  if (s.length % 2 !== 0 || s[0] === ')' || s[s.length - 1] === '(') {
     return false;
   }
 
-  for (let e of arr) {
-    if (e === ')' && stack[stack.length - 1] === '(') {
-      stack.pop();
+  for (const bracket of s) {
+    bracket === ')' && stack[stack.length - 1] === '('
+      ? stack.pop()
+      : stack.push(bracket);
+  }
+
+  return stack.length === 0 ? true : false;
+}
+
+// Solution 2
+function solution2(s) {
+  const stack = [];
+
+  for (const bracket of s) {
+    if (bracket === '(') {
+      stack.push(bracket);
     } else {
-      stack.push(e);
+      if (stack.length === 0) {
+        return false;
+      }
+
+      stack.pop();
     }
   }
 
-  if (stack.length > 0) {
-    answer = false;
+  return stack.length === 0 ? true : false;
+}
+
+// Solution 3
+function solution3(s) {
+  let count = 0;
+
+  for (const bracket of s) {
+    if (bracket === '(') {
+      count++;
+    } else {
+      if (count === 0) {
+        return false;
+      }
+
+      count--;
+    }
   }
 
-  return answer;
+  return count === 0 ? true : false;
 }
