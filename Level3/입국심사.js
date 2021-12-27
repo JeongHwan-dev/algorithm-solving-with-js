@@ -1,5 +1,5 @@
 // Solution 1
-function solution(n, times) {
+function solution1(n, times) {
   const _times = times.slice();
 
   _times.sort((a, b) => a - b);
@@ -29,4 +29,21 @@ function solution(n, times) {
   }
 
   return minTotalTime;
+}
+
+// Solution 2
+function solution2(n, times) {
+  const _times = times.slice();
+  const sortedTimes = _times.sort((a, b) => a - b);
+  let left = 1;
+  let right = sortedTimes[sortedTimes.length - 1] * n;
+
+  while (left <= right) {
+    const mid = Math.floor((left + right) / 2);
+    const sum = times.reduce((acc, time) => acc + Math.floor(mid / time), 0);
+
+    sum < n ? (left = mid + 1) : (right = mid - 1);
+  }
+
+  return left;
 }
