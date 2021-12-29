@@ -1,4 +1,5 @@
-function solution(number, k) {
+// Solution 1
+function solution1(number, k) {
   const splittedNumber = number.split('');
   const stack = [];
 
@@ -16,6 +17,30 @@ function solution(number, k) {
   }
 
   const maxNumber = String(stack.join(''));
+
+  return maxNumber;
+}
+
+// Solution 2
+function solution2(number, k) {
+  const stack = [];
+  let removeCount = 0;
+
+  for (const item of number) {
+    while (removeCount < k && stack[stack.length - 1] < item) {
+      stack.pop();
+      removeCount++;
+    }
+
+    stack.push(item);
+  }
+
+  while (removeCount < k) {
+    stack.pop();
+    removeCount++;
+  }
+
+  const maxNumber = stack.join('');
 
   return maxNumber;
 }
