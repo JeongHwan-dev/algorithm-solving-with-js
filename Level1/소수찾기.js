@@ -14,3 +14,26 @@ function solution1(n) {
 
   return primeNumberCount;
 }
+
+// Solution 2
+function getPrimeNumberCount(num) {
+  const numbers = [false, false, ...Array(num - 1).fill(true)];
+
+  for (let i = 2; i * i <= num; i++) {
+    if (numbers[i]) {
+      for (let j = i * 2; j <= num; j += i) {
+        numbers[j] = false;
+      }
+    }
+  }
+
+  const primeNumberCount = numbers.filter(Boolean).length;
+
+  return primeNumberCount;
+}
+
+function solution2(n) {
+  const primeNumberCount = getPrimeNumberCount(n);
+
+  return primeNumberCount;
+}
