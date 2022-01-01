@@ -1,3 +1,4 @@
+// Solution 1
 function breakingRecords(scores) {
   const breakingRecordsCount = [0, 0];
   let heighestScore = scores[0];
