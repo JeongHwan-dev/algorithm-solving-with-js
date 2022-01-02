@@ -1,8 +1,8 @@
 <div align="center">
   <br />
-  <img src="./readme_assets/programmers_logo.png" alt="Programmers solving with JS" height="300px" />
+  <img src="./readme_assets/algorithm.png" alt="Algorithm" width="300px" />
   <br />
-  <h2>프로그래머스 문제 풀이 with JavaScript</h2>
+  <h2>알고리즘 문제 풀이 with JavaScript</h2>
   <br />
 </div>
 
@@ -10,7 +10,8 @@
 
 <br />
 
-[🔗 프로그래머스 코딩테스트 연습 바로가기 Click!](https://programmers.co.kr/learn/challenges) 👈
+[🔗 프로그래머스 코딩테스트 연습 바로가기 Click!](https://programmers.co.kr/learn/challenges) 👈  
+[🔗 HackerRank 코딩테스트 연습 바로가기 Click!](https://www.hackerrank.com/) 👈
 
 > 새 창 열기 방법 : CTRL+click (on Windows and Linux) | CMD+click (on MacOS)
 
