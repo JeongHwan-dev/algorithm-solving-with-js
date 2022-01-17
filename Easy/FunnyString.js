@@ -1,3 +1,4 @@
+// Solution 1
 function funnyString(s) {
   const ascii = [];
   const gap = [];
