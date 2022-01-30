@@ -1,3 +1,4 @@
+// Solution 1
 function getMinutes(time) {
   const splittedTime = time.split(':');
   const hours = parseInt(splittedTime[0]);
