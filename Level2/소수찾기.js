@@ -107,3 +107,65 @@ function solution2(numbers) {
 
   return primeNumberCount;
 }
+
+// Solution 3
+function isPrimeNumber(number) {
+  if (number <= 1) {
+    return false;
+  }
+
+  for (let i = 2; i <= parseInt(Math.sqrt(number)); i++) {
+    if (number % i === 0) {
+      return false;
+    }
+  }
+
+  return true;
+}
+
+function getPermutations(array, selectNumber) {
+  const len = array.length;
+  const permutations = [];
+  const permutation = Array.from({ length: selectNumber }, () => 0);
+  const visited = Array.from({ length: len }, () => false);
+
+  function dfs(l) {
+    if (l === selectNumber) {
+      permutations.push(permutation.slice());
+    } else {
+      for (let i = 0; i < len; i++) {
+        if (!visited[i]) {
+          visited[i] = true;
+          permutation[l] = array[i];
+          dfs(l + 1);
+          visited[i] = false;
+        }
+      }
+    }
+  }
+
+  dfs(0);
+
+  return permutations;
+}
+
+function solution3(numbers) {
+  const numberArray = numbers.split('');
+  const allOfPermutations = [];
+
+  for (let i = 1; i <= numberArray.length; i++) {
+    const permutations = getPermutations(numberArray, i);
+    const numbers = permutations.map((permutation) =>
+      parseInt(permutation.join(''))
+    );
+
+    allOfPermutations.push(...numbers);
+  }
+
+  const allOfPermutationsSet = new Set(allOfPermutations);
+  const primeNumberCount = Array.from(allOfPermutationsSet).filter((number) =>
+    isPrimeNumber(number)
+  ).length;
+
+  return primeNumberCount;
+}
