@@ -11,7 +11,7 @@
 <br />
 
 [🔗 프로그래머스 코딩테스트 연습 바로가기 Click!](https://programmers.co.kr/learn/challenges) 👈  
-[🔗 HackerRank 코딩테스트 연습 바로가기 Click!](https://www.hackerrank.com/) 👈
+[🔗 HackerRank 코딩테스트 연습 바로가기 Click!](https://www.hackerrank.com/) 👈  
 [🔗 백준 코딩테스트 연습 바로가기 Click!](https://www.acmicpc.net/) 👈
 
 > 새 창 열기 방법 : CTRL+click (on Windows and Linux) | CMD+click (on MacOS)
