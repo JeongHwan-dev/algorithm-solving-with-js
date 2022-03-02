@@ -1,4 +1,3 @@
-// Solution 1
 const fs = require('fs');
 const input = fs.readFileSync('/dev/stdin').toString().split('\n');
 const T = input[0];
@@ -8,6 +7,7 @@ for (let i = 1; i < input.length; i++) {
   data.push(input[i]);
 }
 
+// Solution 1
 for (let i = 0; i < T; i++) {
   const result = solution(data[i]);
 
