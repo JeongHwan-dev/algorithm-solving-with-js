@@ -1,10 +1,4 @@
-const fs = require('fs');
-const input = fs.readFileSync('/dev/stdin').toString().trim();
-const n = parseInt(input);
-
 // Solution 1
-console.log(solution(n));
-
 function factorialize(num) {
   if (num < 0) {
     return -1;
@@ -20,3 +14,9 @@ function solution(n) {
 
   return nFactorial;
 }
+
+const fs = require('fs');
+const input = fs.readFileSync('/dev/stdin').toString().trim();
+const n = parseInt(input);
+
+console.log(solution(n));

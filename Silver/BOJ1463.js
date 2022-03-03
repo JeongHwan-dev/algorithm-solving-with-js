@@ -1,10 +1,4 @@
-const fs = require('fs');
-const input = fs.readFileSync('/dev/stdin').toString();
-const n = Number(input);
-
 // Solution 1
-console.log(solution(n));
-
 function solution(n) {
   let minOperationCount = Number.MAX_SAFE_INTEGER;
 
@@ -32,3 +26,9 @@ function solution(n) {
 
   return minOperationCount;
 }
+
+const fs = require('fs');
+const input = fs.readFileSync('/dev/stdin').toString();
+const n = Number(input);
+
+console.log(solution(n));

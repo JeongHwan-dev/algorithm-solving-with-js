@@ -1,15 +1,4 @@
-const fs = require('fs');
-const input = fs
-  .readFileSync('/dev/stdin')
-  .toString()
-  .trim()
-  .split(' ')
-  .map((element) => Number(element));
-const N = input[0];
-
 // Solution 1
-solution1(N);
-
 function getPermutations(array, selectNumber) {
   const result = [];
 
@@ -37,9 +26,18 @@ function solution1(n) {
   }
 }
 
-// Solution 2
-solution2(N);
+const fs = require('fs');
+const input = fs
+  .readFileSync('/dev/stdin')
+  .toString()
+  .trim()
+  .split(' ')
+  .map((element) => Number(element));
+const N = input[0];
 
+solution1(N);
+
+// Solution 2
 function solution2(n) {
   const permutations = [];
   const permutation = Array.from({ length: n }, () => 0);
@@ -67,3 +65,14 @@ function solution2(n) {
     console.log(permutation.join(' '));
   }
 }
+
+const fs = require('fs');
+const input = fs
+  .readFileSync('/dev/stdin')
+  .toString()
+  .trim()
+  .split(' ')
+  .map((element) => Number(element));
+const N = input[0];
+
+solution2(N);

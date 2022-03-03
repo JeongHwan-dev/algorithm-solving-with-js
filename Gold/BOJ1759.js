@@ -1,15 +1,4 @@
-const fs = require('fs');
-const input = fs.readFileSync('/dev/stdin').toString().trim().split('\n');
-const [l, c] = input[0].split(' ').map((num) => Number(num));
-const arr = input[1].split(' ').sort();
-
 // Solution 1
-const result = solution(l, c, arr);
-
-for (const password of result) {
-  console.log(password);
-}
-
 function getCombinations(array, selectNumber) {
   const results = [];
 
@@ -47,4 +36,15 @@ function solution(l, c, arr) {
     .map((combination) => combination.join(''));
 
   return filteredPasswordCombinations;
+}
+
+const fs = require('fs');
+const input = fs.readFileSync('/dev/stdin').toString().trim().split('\n');
+const [l, c] = input[0].split(' ').map((num) => Number(num));
+const arr = input[1].split(' ').sort();
+
+const result = solution(l, c, arr);
+
+for (const password of result) {
+  console.log(password);
 }

@@ -1,12 +1,4 @@
-const fs = require('fs');
-const input = fs.readFileSync('/dev/stdin').toString().trim().split('\n');
-const n = Number(input[0].split(' ')[0]);
-const m = Number(input[0].split(' ')[1]);
-const nums = input[1].split(' ').map((num) => Number(num));
-
 // Solution 1
-console.log(solution(n, m, nums));
-
 function solution(n, m, nums) {
   let numberOfCases = 0;
 
@@ -26,3 +18,11 @@ function solution(n, m, nums) {
 
   return numberOfCases;
 }
+
+const fs = require('fs');
+const input = fs.readFileSync('/dev/stdin').toString().trim().split('\n');
+const n = Number(input[0].split(' ')[0]);
+const m = Number(input[0].split(' ')[1]);
+const nums = input[1].split(' ').map((num) => Number(num));
+
+console.log(solution(n, m, nums));

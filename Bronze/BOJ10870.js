@@ -1,9 +1,4 @@
-const fs = require('fs');
-const input = fs.readFileSync('/dev/stdin').toString().trim();
-const n = parseInt(input);
-
-console.log(solution(n));
-
+// Solution 1
 function getFibonacci(n) {
   const fibonacci = [0, 1];
 
@@ -19,3 +14,9 @@ function solution(n) {
 
   return fibonacci[n];
 }
+
+const fs = require('fs');
+const input = fs.readFileSync('/dev/stdin').toString().trim();
+const n = parseInt(input);
+
+console.log(solution(n));
