@@ -36,3 +36,36 @@ function solution1(tickets) {
 
   return finalRoute;
 }
+
+// Solution 2
+function solution2(tickets) {
+  const totalTicketCount = tickets.length;
+  const visited = Array.from({ length: totalTicketCount }, () => false);
+  const route = [];
+  const finalRoutes = [];
+
+  tickets.sort();
+
+  function dfs(airport, ticketCount) {
+    if (ticketCount === totalTicketCount) {
+      finalRoutes.push(route.slice());
+    } else {
+      for (let i = 0; i < totalTicketCount; i++) {
+        const [departureAirport, arrivalAirport] = tickets[i];
+
+        if (!visited[i] && departureAirport === airport) {
+          visited[i] = true;
+          route.push(arrivalAirport);
+          dfs(arrivalAirport, ticketCount + 1);
+          visited[i] = false;
+          route.pop();
+        }
+      }
+    }
+  }
+
+  route.push('ICN');
+  dfs('ICN', 0);
+
+  return finalRoutes[0];
+}
