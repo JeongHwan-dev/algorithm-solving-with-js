@@ -22,13 +22,6 @@ function solution1(n, s, arr) {
   return numberOfCases;
 }
 
-const fs = require('fs');
-const input = fs.readFileSync('/dev/stdin').toString().trim().split('\n');
-const [n, s] = input[0].split(' ').map((item) => Number(item));
-const arr = input[1].split(' ').map((item) => Number(item));
-
-console.log(solution1(n, s, arr));
-
 // Solution 2
 function solution2(n, s, arr) {
   let numberOfCases = 0;
@@ -53,5 +46,7 @@ const fs = require('fs');
 const input = fs.readFileSync('/dev/stdin').toString().trim().split('\n');
 const [n, s] = input[0].split(' ').map((item) => Number(item));
 const arr = input[1].split(' ').map((item) => Number(item));
+
+console.log(solution1(n, s, arr));
 
 console.log(solution2(n, s, arr));

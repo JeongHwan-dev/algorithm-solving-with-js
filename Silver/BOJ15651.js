@@ -28,18 +28,6 @@ function solution1(n, m) {
   return result;
 }
 
-const fs = require('fs');
-const input = fs
-  .readFileSync('/dev/stdin')
-  .toString()
-  .trim()
-  .split(' ')
-  .map((value) => parseInt(value));
-const n = input[0];
-const m = input[1];
-
-console.log(solution1(n, m));
-
 // Solution 2
 function getPermutationsWithRepetition(array, selectNumber) {
   const permutations = [];
@@ -82,5 +70,7 @@ const input = fs
   .map((value) => parseInt(value));
 const n = input[0];
 const m = input[1];
+
+console.log(solution1(n, m));
 
 console.log(solution2(n, m));

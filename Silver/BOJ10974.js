@@ -26,17 +26,6 @@ function solution1(n) {
   }
 }
 
-const fs = require('fs');
-const input = fs
-  .readFileSync('/dev/stdin')
-  .toString()
-  .trim()
-  .split(' ')
-  .map((element) => Number(element));
-const N = input[0];
-
-solution1(N);
-
 // Solution 2
 function solution2(n) {
   const permutations = [];
@@ -73,6 +62,8 @@ const input = fs
   .trim()
   .split(' ')
   .map((element) => Number(element));
-const N = input[0];
+const n = input[0];
 
-solution2(N);
+solution1(n);
+
+solution2(n);
