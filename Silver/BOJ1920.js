@@ -1,3 +1,4 @@
+// Solution 1
 function solution(nArray, mArray) {
   const nMap = new Map();
   const results = [];
