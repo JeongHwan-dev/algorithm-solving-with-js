@@ -38,3 +38,32 @@ function solution1(N, road, K) {
 
   return townsCount;
 }
+
+// Solution 2
+function solution2(N, road, K) {
+  const graph = Array.from({ length: N + 1 }, () => []);
+  const townsDistance = Array.from({ length: N + 1 }, () => Infinity);
+
+  road.forEach(([x, y, time]) => {
+    graph[x].push([y, time]);
+    graph[y].push([x, time]);
+  });
+
+  function dfs(townNum, totalTime) {
+    if (townsDistance[townNum] < totalTime) {
+      return;
+    }
+
+    townsDistance[townNum] = totalTime;
+
+    for (const [nextTownNum, time] of graph[townNum]) {
+      dfs(nextTownNum, totalTime + time);
+    }
+  }
+
+  dfs(1, 0);
+
+  const townsCount = townsDistance.filter((time) => time <= K).length;
+
+  return townsCount;
+}
