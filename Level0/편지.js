@@ -1,3 +1,4 @@
+// Solution 1
 const ONE_LETTER_WIDTH = 2;
 
 function solution(message) {
