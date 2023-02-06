@@ -125,6 +125,7 @@
 
 ### 2023년 02월
 
-|   날짜    |  난이도   |                                        문제                                         |                                               JS 풀이                                                |
-| :-------: | :-------: | :---------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------: |
-| 23.02.05. | `Level 0` | [n의 배수 고르기](https://school.programmers.co.kr/learn/courses/30/lessons/120905) | [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/n의배수고르기.js) |
+|   날짜    |  난이도   |                                         문제                                         |                                                JS 풀이                                                |
+| :-------: | :-------: | :----------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------: |
+| 23.02.05. | `Level 0` | [n의 배수 고르기](https://school.programmers.co.kr/learn/courses/30/lessons/120905)  | [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/n의배수고르기.js)  |
+| 23.02.06. | `Level 0` | [옷가게 할인 받기](https://school.programmers.co.kr/learn/courses/30/lessons/120818) | [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/옷가게할인받기.js) |
