@@ -125,9 +125,10 @@
 
 ### 2023년 02월
 
-|   날짜    |  난이도   |                                         문제                                         |                                                JS 풀이                                                |
-| :-------: | :-------: | :----------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------: |
-| 23.02.05. | `Level 0` | [n의 배수 고르기](https://school.programmers.co.kr/learn/courses/30/lessons/120905)  | [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/n의배수고르기.js)  |
-| 23.02.06. | `Level 0` | [옷가게 할인 받기](https://school.programmers.co.kr/learn/courses/30/lessons/120818) | [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/옷가게할인받기.js) |
-| 23.02.08. | `Level 0` | [가장 큰 수 찾기](https://school.programmers.co.kr/learn/courses/30/lessons/120899)  |  [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/가장큰수찾기.js)  |
-| 23.02.11. | `Level 0` |   [약수 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/120897)    |   [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/약수구하기.js)   |
+|   날짜    |  난이도   |                                         문제                                          |                                                JS 풀이                                                 |
+| :-------: | :-------: | :-----------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------: |
+| 23.02.05. | `Level 0` |  [n의 배수 고르기](https://school.programmers.co.kr/learn/courses/30/lessons/120905)  |  [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/n의배수고르기.js)  |
+| 23.02.06. | `Level 0` | [옷가게 할인 받기](https://school.programmers.co.kr/learn/courses/30/lessons/120818)  | [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/옷가게할인받기.js)  |
+| 23.02.08. | `Level 0` |  [가장 큰 수 찾기](https://school.programmers.co.kr/learn/courses/30/lessons/120899)  |  [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/가장큰수찾기.js)   |
+| 23.02.11. | `Level 0` |    [약수 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/120897)    |   [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/약수구하기.js)    |
+| 23.02.11. | `Level 0` | [문자열 정렬하기 2](https://school.programmers.co.kr/learn/courses/30/lessons/120911) | [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/문자열정렬하기2.js) |
