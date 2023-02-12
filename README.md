@@ -133,3 +133,4 @@
 | 23.02.11. | `Level 0` |    [약수 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/120897)    |   [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/약수구하기.js)    |
 | 23.02.11. | `Level 0` | [문자열 정렬하기 2](https://school.programmers.co.kr/learn/courses/30/lessons/120911) | [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/문자열정렬하기2.js) |
 | 23.02.12. | `Level 0` | [문자열 정렬하기 1](https://school.programmers.co.kr/learn/courses/30/lessons/120850) | [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/문자열정렬하기1.js) |
+| 23.02.12. | `Level 0` | [중복된 문자 제거](https://school.programmers.co.kr/learn/courses/30/lessons/120888)  | [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/중복된문자제거.js)  |
