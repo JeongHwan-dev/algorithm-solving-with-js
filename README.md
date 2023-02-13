@@ -135,3 +135,4 @@
 | 23.02.12. | `Level 0` |   [문자열 정렬하기 1](https://school.programmers.co.kr/learn/courses/30/lessons/120850)    |   [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/문자열정렬하기1.js)   |
 | 23.02.12. | `Level 0` |    [중복된 문자 제거](https://school.programmers.co.kr/learn/courses/30/lessons/120888)    |   [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/중복된문자제거.js)    |
 | 23.02.13. | `Level 0` | [숨어있는 숫자의 뎃셈 1](https://school.programmers.co.kr/learn/courses/30/lessons/120851) | [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/숨어있는숫자의덧셈1.js) |
+| 23.02.13. | `Level 0` |     [인덱스 바꾸기](https://school.programmers.co.kr/learn/courses/30/lessons/120895)      |    [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/인덱스바꾸기.js)     |
