@@ -137,3 +137,4 @@
 | 23.02.13. | `Level 0` | [숨어있는 숫자의 뎃셈 1](https://school.programmers.co.kr/learn/courses/30/lessons/120851) | [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/숨어있는숫자의덧셈1.js) |
 | 23.02.13. | `Level 0` |     [인덱스 바꾸기](https://school.programmers.co.kr/learn/courses/30/lessons/120895)      |    [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/인덱스바꾸기.js)     |
 | 23.02.18. | `Level 0` |      [A를 B 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/120886)      |     [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/A를B만들기.js)      |
+| 23.02.18. | `Level 0` |     [최대값 만들기2](https://school.programmers.co.kr/learn/courses/30/lessons/120862)     |    [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/최대값만들기2.js)    |
