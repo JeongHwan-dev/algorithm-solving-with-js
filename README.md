@@ -139,3 +139,4 @@
 | 23.02.18. | `Level 0` |      [A를 B 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/120886)      |     [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/A를B만들기.js)      |
 | 23.02.18. | `Level 0` |     [최대값 만들기2](https://school.programmers.co.kr/learn/courses/30/lessons/120862)     |    [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/최대값만들기2.js)    |
 | 23.02.19. | `Level 0` |       [가까운 수](https://school.programmers.co.kr/learn/courses/30/lessons/120890)        |      [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/가까운수.js)       |
+| 23.02.26. | `Level 0` |        [7의 개수](https://school.programmers.co.kr/learn/courses/30/lessons/120912)        |       [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/7의개수.js)       |
