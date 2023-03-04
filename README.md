@@ -146,3 +146,4 @@
 |   날짜    |  난이도   |                                            문제                                            |                                                   JS 풀이                                                   |
 | :-------: | :-------: | :----------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------: |
 | 23.03.01. | `Level 0` | [잘라서 배열로 저장하기](https://school.programmers.co.kr/learn/courses/30/lessons/120913) | [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/잘라서배열로저장하기.js) |
+| 23.03.04. | `Level 0` |    [문자열 계산하기](https://school.programmers.co.kr/learn/courses/30/lessons/120902)     |    [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/문자열계산하기.js)    |
