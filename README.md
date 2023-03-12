@@ -148,3 +148,4 @@
 | 23.03.01. | `Level 0` | [잘라서 배열로 저장하기](https://school.programmers.co.kr/learn/courses/30/lessons/120913) | [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/잘라서배열로저장하기.js) |
 | 23.03.04. | `Level 0` |    [문자열 계산하기](https://school.programmers.co.kr/learn/courses/30/lessons/120902)     |    [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/문자열계산하기.js)    |
 | 23.03.05. | `Level 0` |    [피자 나눠 먹기 3](https://school.programmers.co.kr/learn/courses/30/lessons/120816)    |    [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/피자나눠먹기3.js)     |
+| 23.03.12. | `Level 0` |  [한 번만 등장한 문자](https://school.programmers.co.kr/learn/courses/30/lessons/120896)   |   [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/한번만등장한문자.js)   |
