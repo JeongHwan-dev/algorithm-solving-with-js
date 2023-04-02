@@ -152,3 +152,9 @@
 | 23.03.19. | `Level 0` |       [암호 해독](https://school.programmers.co.kr/learn/courses/30/lessons/120892)        |       [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/암호해독.js)       |
 | 23.03.25. | `Level 0` |    [배열 회전시키기](https://school.programmers.co.kr/learn/courses/30/lessons/120844)     |    [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/배열회전시키기.js)    |
 | 23.03.26. | `Level 0` |    [피자 나눠 먹기 2](https://school.programmers.co.kr/learn/courses/30/lessons/120815)    |    [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/피자나눠먹기2.js)     |
+
+### 2023년 04월
+
+|   날짜    |  난이도   |                                       문제                                       |                                              JS 풀이                                              |
+| :-------: | :-------: | :------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------: |
+| 23.04.02. | `Level 0` | [가위 바위 보](https://school.programmers.co.kr/learn/courses/30/lessons/120839) | [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/가위바위보.js) |
