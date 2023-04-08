@@ -160,3 +160,4 @@
 | 23.04.02. | `Level 0` |  [가위 바위 보](https://school.programmers.co.kr/learn/courses/30/lessons/120839)   |   [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/가위바위보.js)   |
 | 23.04.03. | `Level 0` | [외계행성의 나이](https://school.programmers.co.kr/learn/courses/30/lessons/120834) | [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/외계행성의나이.js) |
 | 23.04.08. | `Level 0` | [제곱수 판별하기](https://school.programmers.co.kr/learn/courses/30/lessons/120909) | [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/제곱수판별하기.js) |
+| 23.04.08. | `Level 0` |     [369게임](https://school.programmers.co.kr/learn/courses/30/lessons/120891)     |    [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/369게임.js)     |
