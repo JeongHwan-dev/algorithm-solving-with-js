@@ -162,3 +162,9 @@
 | 23.04.08. | `Level 0` | [제곱수 판별하기](https://school.programmers.co.kr/learn/courses/30/lessons/120909) | [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/제곱수판별하기.js) |
 | 23.04.08. | `Level 0` |     [369게임](https://school.programmers.co.kr/learn/courses/30/lessons/120891)     |    [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/369게임.js)     |
 | 23.04.09. | `Level 0` |     [각도기](https://school.programmers.co.kr/learn/courses/30/lessons/120829)      |     [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/각도기.js)     |
+
+### 2023년 05월
+
+|   날짜    |  난이도   |                                     문제                                     |                                            JS 풀이                                             |
+| :-------: | :-------: | :--------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------: |
+| 23.05.14. | `Level 0` | [n의 배수](https://school.programmers.co.kr/learn/courses/30/lessons/181937) | [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/n의배수.js) |
