@@ -169,3 +169,4 @@
 | :-------: | :-------: | :---------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------: |
 | 23.05.14. | `Level 0` |          [n의 배수](https://school.programmers.co.kr/learn/courses/30/lessons/181937)           |         [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/n의배수.js)         |
 | 23.05.29. | `Level 0` | [조건에 맞게 수열 변환하기 1](https://school.programmers.co.kr/learn/courses/30/lessons/181882) | [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/조건에맞게수열변환하기1.js) |
+| 23.05.29. | `Level 0` |  [문자열을 정수로 변환하기](https://school.programmers.co.kr/learn/courses/30/lessons/181848)   | [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/문자열을정수로변환하기.js)  |
