@@ -165,6 +165,7 @@
 
 ### 2023년 05월
 
-|   날짜    |  난이도   |                                     문제                                     |                                            JS 풀이                                             |
-| :-------: | :-------: | :--------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------: |
-| 23.05.14. | `Level 0` | [n의 배수](https://school.programmers.co.kr/learn/courses/30/lessons/181937) | [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/n의배수.js) |
+|   날짜    |  난이도   |                                              문제                                               |                                                    JS 풀이                                                     |
+| :-------: | :-------: | :---------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------: |
+| 23.05.14. | `Level 0` |          [n의 배수](https://school.programmers.co.kr/learn/courses/30/lessons/181937)           |         [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/n의배수.js)         |
+| 23.05.29. | `Level 0` | [조건에 맞게 수열 변환하기 1](https://school.programmers.co.kr/learn/courses/30/lessons/181882) | [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/조건에맞게수열변환하기1.js) |
