@@ -171,3 +171,4 @@
 | 23.05.20. | `Level 0` | [조건에 맞게 수열 변환하기 1](https://school.programmers.co.kr/learn/courses/30/lessons/181882) | [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/조건에맞게수열변환하기1.js) |
 | 23.05.20. | `Level 0` |  [문자열을 정수로 변환하기](https://school.programmers.co.kr/learn/courses/30/lessons/181848)   | [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/문자열을정수로변환하기.js)  |
 | 23.05.21. | `Level 0` |      [길이에 따른 연산](https://school.programmers.co.kr/learn/courses/30/lessons/181879)       |     [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/길이에따른연산.js)      |
+| 23.05.21. | `Level 0` |       [소문자로 바꾸기](https://school.programmers.co.kr/learn/courses/30/lessons/181876)       |     [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/소문자로바꾸기.js)      |
