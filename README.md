@@ -173,3 +173,4 @@
 | 23.05.21. | `Level 0` |      [길이에 따른 연산](https://school.programmers.co.kr/learn/courses/30/lessons/181879)       |     [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/길이에따른연산.js)      |
 | 23.05.21. | `Level 0` |       [소문자로 바꾸기](https://school.programmers.co.kr/learn/courses/30/lessons/181876)       |     [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/소문자로바꾸기.js)      |
 | 23.05.27. | `Level 0` |    [첫 번째로 나오는 음수](https://school.programmers.co.kr/learn/courses/30/lessons/181896)    |   [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/첫번째로나오는음수.js)    |
+| 23.05.27. | `Level 0` |          [정수 부분](https://school.programmers.co.kr/learn/courses/30/lessons/181850)          |        [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/정수부분.js)         |
