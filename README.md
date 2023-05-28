@@ -175,3 +175,4 @@
 | 23.05.27. | `Level 0` |    [첫 번째로 나오는 음수](https://school.programmers.co.kr/learn/courses/30/lessons/181896)    |   [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/첫번째로나오는음수.js)    |
 | 23.05.27. | `Level 0` |          [정수 부분](https://school.programmers.co.kr/learn/courses/30/lessons/181850)          |        [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/정수부분.js)         |
 | 23.05.27. | `Level 0` |     [문자열의 뒤의 n글자](https://school.programmers.co.kr/learn/courses/30/lessons/181910)     |    [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/문자열의뒤의n글자.js)    |
+| 23.05.28. | `Level 0` |          [정수 찾기](https://school.programmers.co.kr/learn/courses/30/lessons/181840)          |        [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/정수찾기.js)         |
