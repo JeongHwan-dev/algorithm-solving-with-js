@@ -184,3 +184,4 @@
 |   날짜    |  난이도   |                                               문제                                               |                                                     JS 풀이                                                     |
 | :-------: | :-------: | :----------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------: |
 | 23.06.03. | `Level 0` | [flag에 따라 다른 값 반환하기](https://school.programmers.co.kr/learn/courses/30/lessons/181937) | [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/flag에따라다른값반환하기.js) |
+| 23.06.03. | `Level 0` |     [문자열의 앞의 n글자](https://school.programmers.co.kr/learn/courses/30/lessons/181907)      |    [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/문자열의앞의n글자.js)     |
