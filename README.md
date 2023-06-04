@@ -185,3 +185,4 @@
 | :-------: | :-------: | :----------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------: |
 | 23.06.03. | `Level 0` | [flag에 따라 다른 값 반환하기](https://school.programmers.co.kr/learn/courses/30/lessons/181937) | [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/flag에따라다른값반환하기.js) |
 | 23.06.03. | `Level 0` |     [문자열의 앞의 n글자](https://school.programmers.co.kr/learn/courses/30/lessons/181907)      |    [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/문자열의앞의n글자.js)     |
+| 23.06.04. | `Level 0` |        [n번째 원소까지](https://school.programmers.co.kr/learn/courses/30/lessons/181889)        |      [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/n번째원소까지.js)       |
