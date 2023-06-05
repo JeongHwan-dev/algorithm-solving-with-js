@@ -187,3 +187,4 @@
 | 23.06.03. | `Level 0` |     [문자열의 앞의 n글자](https://school.programmers.co.kr/learn/courses/30/lessons/181907)      |    [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/문자열의앞의n글자.js)     |
 | 23.06.04. | `Level 0` |        [n번째 원소까지](https://school.programmers.co.kr/learn/courses/30/lessons/181889)        |      [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/n번째원소까지.js)       |
 | 23.06.04. | `Level 0` |          [카운트 업](https://school.programmers.co.kr/learn/courses/30/lessons/181920)           |         [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/카운트업.js)         |
+| 23.06.05. | `Level 0` |       [원소들의 곱과 합](https://school.programmers.co.kr/learn/courses/30/lessons/181929)       |      [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/원소들의곱과합.js)      |
