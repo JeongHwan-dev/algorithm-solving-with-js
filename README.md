@@ -190,3 +190,4 @@
 | 23.06.05. | `Level 0` |       [원소들의 곱과 합](https://school.programmers.co.kr/learn/courses/30/lessons/181929)       |      [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/원소들의곱과합.js)      |
 | 23.06.06. | `Level 0` |       [문자열 정수의 합](https://school.programmers.co.kr/learn/courses/30/lessons/181849)       |      [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/문자열정수의합.js)      |
 | 23.06.06. | `Level 0` |     [공백으로 구분하기 1](https://school.programmers.co.kr/learn/courses/30/lessons/181869)      |    [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/공백으로구분하기1.js)     |
+| 23.06.07. | `Level 0` |   [n보다 커질 때까지 더하기](https://school.programmers.co.kr/learn/courses/30/lessons/181884)   |  [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/n보다커질때까지더하기.js)   |
