@@ -181,13 +181,14 @@
 
 ### 2023년 05월
 
-|   날짜    |  난이도   |                                               문제                                               |                                                     JS 풀이                                                     |
-| :-------: | :-------: | :----------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------: |
-| 23.06.03. | `Level 0` | [flag에 따라 다른 값 반환하기](https://school.programmers.co.kr/learn/courses/30/lessons/181937) | [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/flag에따라다른값반환하기.js) |
-| 23.06.03. | `Level 0` |     [문자열의 앞의 n글자](https://school.programmers.co.kr/learn/courses/30/lessons/181907)      |    [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/문자열의앞의n글자.js)     |
-| 23.06.04. | `Level 0` |        [n번째 원소까지](https://school.programmers.co.kr/learn/courses/30/lessons/181889)        |      [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/n번째원소까지.js)       |
-| 23.06.04. | `Level 0` |          [카운트 업](https://school.programmers.co.kr/learn/courses/30/lessons/181920)           |         [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/카운트업.js)         |
-| 23.06.05. | `Level 0` |       [원소들의 곱과 합](https://school.programmers.co.kr/learn/courses/30/lessons/181929)       |      [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/원소들의곱과합.js)      |
-| 23.06.06. | `Level 0` |       [문자열 정수의 합](https://school.programmers.co.kr/learn/courses/30/lessons/181849)       |      [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/문자열정수의합.js)      |
-| 23.06.06. | `Level 0` |     [공백으로 구분하기 1](https://school.programmers.co.kr/learn/courses/30/lessons/181869)      |    [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/공백으로구분하기1.js)     |
-| 23.06.07. | `Level 0` |   [n보다 커질 때까지 더하기](https://school.programmers.co.kr/learn/courses/30/lessons/181884)   |  [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/n보다커질때까지더하기.js)   |
+|   날짜    |  난이도   |                                               문제                                                |                                                      JS 풀이                                                      |
+| :-------: | :-------: | :-----------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------: |
+| 23.06.03. | `Level 0` | [flag에 따라 다른 값 반환하기](https://school.programmers.co.kr/learn/courses/30/lessons/181937)  |  [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/flag에따라다른값반환하기.js)  |
+| 23.06.03. | `Level 0` |      [문자열의 앞의 n글자](https://school.programmers.co.kr/learn/courses/30/lessons/181907)      |     [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/문자열의앞의n글자.js)      |
+| 23.06.04. | `Level 0` |        [n번째 원소까지](https://school.programmers.co.kr/learn/courses/30/lessons/181889)         |       [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/n번째원소까지.js)        |
+| 23.06.04. | `Level 0` |           [카운트 업](https://school.programmers.co.kr/learn/courses/30/lessons/181920)           |          [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/카운트업.js)          |
+| 23.06.05. | `Level 0` |       [원소들의 곱과 합](https://school.programmers.co.kr/learn/courses/30/lessons/181929)        |       [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/원소들의곱과합.js)       |
+| 23.06.06. | `Level 0` |       [문자열 정수의 합](https://school.programmers.co.kr/learn/courses/30/lessons/181849)        |       [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/문자열정수의합.js)       |
+| 23.06.06. | `Level 0` |      [공백으로 구분하기 1](https://school.programmers.co.kr/learn/courses/30/lessons/181869)      |     [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/공백으로구분하기1.js)      |
+| 23.06.07. | `Level 0` |   [n보다 커질 때까지 더하기](https://school.programmers.co.kr/learn/courses/30/lessons/181884)    |   [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/n보다커질때까지더하기.js)    |
+| 23.06.08. | `Level 0` | [특정한 문자를 대문자로 바꾸기](https://school.programmers.co.kr/learn/courses/30/lessons/181873) | [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/특정한문자를대문자로바꾸기.js) |
