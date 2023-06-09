@@ -193,3 +193,4 @@
 | 23.06.07. | `Level 0` |   [n보다 커질 때까지 더하기](https://school.programmers.co.kr/learn/courses/30/lessons/181884)    |   [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/n보다커질때까지더하기.js)    |
 | 23.06.08. | `Level 0` | [특정한 문자를 대문자로 바꾸기](https://school.programmers.co.kr/learn/courses/30/lessons/181873) | [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/특정한문자를대문자로바꾸기.js) |
 | 23.06.08. | `Level 0` |        [대문자로 바꾸기](https://school.programmers.co.kr/learn/courses/30/lessons/181877)        |       [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/대문자로바꾸기.js)       |
+| 23.06.09. | `Level 0` |   [부분 문자열인지 확인하기](https://school.programmers.co.kr/learn/courses/30/lessons/181843)    |   [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/부분문자열인지확인하기.js)   |
