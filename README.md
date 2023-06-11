@@ -195,3 +195,4 @@
 | 23.06.08. | `Level 0` |         [대문자로 바꾸기](https://school.programmers.co.kr/learn/courses/30/lessons/181877)         |        [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/대문자로바꾸기.js)        |
 | 23.06.10. | `Level 0` |    [부분 문자열인지 확인하기](https://school.programmers.co.kr/learn/courses/30/lessons/181843)     |    [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/부분문자열인지확인하기.js)    |
 | 23.06.10. | `Level 0` | [문자 리스트를 문자열로 변환하기](https://school.programmers.co.kr/learn/courses/30/lessons/181941) | [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/문자리스트를문자열로변환하기.js) |
+| 23.06.11. | `Level 0` |  [글자 이어 붙여 문자열 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/181915)   |   [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/글자이어붙여문자열만들기.js)   |
