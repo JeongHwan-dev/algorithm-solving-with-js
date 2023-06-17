@@ -198,3 +198,4 @@
 | 23.06.11. | `Level 0` |  [글자 이어 붙여 문자열 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/181915)   |   [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/글자이어붙여문자열만들기.js)   |
 | 23.06.14. | `Level 0` |           [부분 문자열](https://school.programmers.co.kr/learn/courses/30/lessons/181842)           |          [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/부분문자열.js)          |
 | 23.06.15. | `Level 0` |             [공배수](https://school.programmers.co.kr/learn/courses/30/lessons/181936)              |            [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/공배수.js)            |
+| 23.06.16. | `Level 0` |          [이어 붙인 수](https://school.programmers.co.kr/learn/courses/30/lessons/181928)           |          [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/이어붙인수.js)          |
