@@ -179,7 +179,7 @@
 | 23.05.29. | `Level 0` |       [마지막 두 원소](https://school.programmers.co.kr/learn/courses/30/lessons/181927)        |      [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/마지막두원소.js)       |
 | 23.05.29. | `Level 0` |        [문자열로 변환](https://school.programmers.co.kr/learn/courses/30/lessons/181845)        |      [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/문자열로변환.js)       |
 
-### 2023년 05월
+### 2023년 06월
 
 |   날짜    |  난이도   |                                                문제                                                 |                                                       JS 풀이                                                       |
 | :-------: | :-------: | :-------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------: |
@@ -203,3 +203,9 @@
 | 23.06.18. | `Level 0` |           [A 강조하기](https://school.programmers.co.kr/learn/courses/30/lessons/181874)            |          [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/A강조하기.js)           |
 | 23.06.20. | `Level 0` |           [카운트다운](https://school.programmers.co.kr/learn/courses/30/lessons/181899)            |          [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/카운트다운.js)          |
 | 23.06.20. | `Level 0` |         [n 번째 원소부터](https://school.programmers.co.kr/learn/courses/30/lessons/181892)         |        [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/n번째원소부터.js)         |
+
+### 2023년 07월
+
+|   날짜    |  난이도   |                                      문제                                      |                                              JS 풀이                                              |
+| :-------: | :-------: | :----------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------: |
+| 23.07.02. | `Level 0` | [rny_string](https://school.programmers.co.kr/learn/courses/30/lessons/181892) | [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/rny_string.js) |
