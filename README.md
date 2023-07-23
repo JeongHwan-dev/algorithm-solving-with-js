@@ -211,4 +211,5 @@
 | 23.07.02. | `Level 0` |    [rny_string](https://school.programmers.co.kr/learn/courses/30/lessons/181892)     |   [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/rny_string.js)    |
 | 23.07.08. | `Level 0` |       [5명씩](https://school.programmers.co.kr/learn/courses/30/lessons/181886)       |      [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/5명씩.js)      |
 | 23.07.22. | `Level 0` |   [문자열 곱하기](https://school.programmers.co.kr/learn/courses/30/lessons/181940)   |  [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/문자열곱하기.js)   |
-| 23.07.23. | `Level 0` | [n개 간격의 원소들](https://school.programmers.co.kr/learn/courses/30/lessons/181888) | [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/n개간격의원소들.js) |
+| 23.07.22. | `Level 0` | [n개 간격의 원소들](https://school.programmers.co.kr/learn/courses/30/lessons/181888) | [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/n개간격의원소들.js) |
+| 23.07.23. | `Level 0` |   [배열 만들기 1](https://school.programmers.co.kr/learn/courses/30/lessons/181901)   |   [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/배열만들기1.js)   |
