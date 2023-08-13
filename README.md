@@ -214,3 +214,9 @@
 | 23.07.22. | `Level 0` | [n개 간격의 원소들](https://school.programmers.co.kr/learn/courses/30/lessons/181888) | [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/n개간격의원소들.js) |
 | 23.07.23. | `Level 0` |   [배열 만들기 1](https://school.programmers.co.kr/learn/courses/30/lessons/181901)   |   [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/배열만들기1.js)   |
 | 23.07.23. | `Level 0` |   [배열 비교하기](https://school.programmers.co.kr/learn/courses/30/lessons/181856)   |  [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/배열비교하기.js)   |
+
+### 2023년 08월
+
+|   날짜    |  난이도   |                                          문제                                          |                                                 JS 풀이                                                 |
+| :-------: | :-------: | :------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------: |
+| 23.08.13. | `Level 0` | [원하는 문자열 찾기](https://school.programmers.co.kr/learn/courses/30/lessons/181878) | [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/원하는문자열찾기.js) |
