@@ -217,6 +217,7 @@
 
 ### 2023년 08월
 
-|   날짜    |  난이도   |                                          문제                                          |                                                 JS 풀이                                                 |
-| :-------: | :-------: | :------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------: |
-| 23.08.13. | `Level 0` | [원하는 문자열 찾기](https://school.programmers.co.kr/learn/courses/30/lessons/181878) | [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/원하는문자열찾기.js) |
+|   날짜    |  난이도   |                                          문제                                           |                                                 JS 풀이                                                  |
+| :-------: | :-------: | :-------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------: |
+| 23.08.13. | `Level 0` | [원하는 문자열 찾기](https://school.programmers.co.kr/learn/courses/30/lessons/181878)  | [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/원하는문자열찾기.js)  |
+| 23.08.13. | `Level 0` | [공백으로 구분하기 2](https://school.programmers.co.kr/learn/courses/30/lessons/181868) | [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/공백으로구분하기2.js) |
