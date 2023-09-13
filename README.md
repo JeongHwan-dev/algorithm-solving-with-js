@@ -225,7 +225,8 @@
 
 ### 2023년 09월
 
-|   날짜    |  난이도   |                                                           문제                                                           |                                                       JS 풀이                                                       |
-| :-------: | :-------: | :----------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------: |
-| 23.09.04. | `Level 0` |       [접두사인지 확인하기](https://school.programmers.co.kr/learn/courses/30/lessons/181906?language=javascript)        |      [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/접두사인지확인하기.js)      |
-| 23.09.10. | `Level 0` | [배열의 길이에 따라 다른 연산하기](https://school.programmers.co.kr/learn/courses/30/lessons/181906?language=javascript) | [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/배열의길이에따라다른연산하기.js) |
+|   날짜    |  난이도   |                                                    문제                                                     |                                                       JS 풀이                                                       |
+| :-------: | :-------: | :---------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------: |
+| 23.09.04. | `Level 0` | [접두사인지 확인하기](https://school.programmers.co.kr/learn/courses/30/lessons/181906?language=javascript) |      [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/접두사인지확인하기.js)      |
+| 23.09.10. | `Level 0` |    [배열의 길이에 따라 다른 연산하기](https://school.programmers.co.kr/learn/courses/30/lessons/181854)     | [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/배열의길이에따라다른연산하기.js) |
+| 23.09.13. | `Level 0` | [접미사인지 확인하기](https://school.programmers.co.kr/learn/courses/30/lessons/181906?language=javascript) |      [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/접미사인지확인하기.js)      |
