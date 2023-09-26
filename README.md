@@ -233,3 +233,4 @@
 | 23.09.18. | `Level 0` |              [홀수 vs 짝수](https://school.programmers.co.kr/learn/courses/30/lessons/181887)               |          [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/홀수vs짝수.js)          |
 | 23.09.24. | `Level 0` |              [수 조작하기 1](https://school.programmers.co.kr/learn/courses/30/lessons/181926)              |         [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/수조작하기1.js)          |
 | 23.09.25. | `Level 0` |        [배열의 원소만큼 추가하기](https://school.programmers.co.kr/learn/courses/30/lessons/181861)         |    [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/배열의원소만큼추가하기.js)    |
+| 23.09.26. | `Level 0` |               [꼬리 문자열](https://school.programmers.co.kr/learn/courses/30/lessons/181841)               |          [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/꼬리문자열.js)          |
