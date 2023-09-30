@@ -237,3 +237,4 @@
 | 23.09.27. | `Level 0` |             [연속된 수의 합](https://school.programmers.co.kr/learn/courses/30/lessons/120923)              |         [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/연속된수의합.js)         |
 | 23.09.28. | `Level 0` |                 [0 떼기](https://school.programmers.co.kr/learn/courses/30/lessons/181847)                  |            [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/0떼기.js)             |
 | 23.09.29. | `Level 0` |             [뒤에서 5등까지](https://school.programmers.co.kr/learn/courses/30/lessons/181853)              |        [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/뒤에서5등까지.js)         |
+| 23.09.30. | `Level 0` |          [배열의 원소 삭제하기](https://school.programmers.co.kr/learn/courses/30/lessons/181844)           |      [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/배열의원소삭제하기.js)      |
