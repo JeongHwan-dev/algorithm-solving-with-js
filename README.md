@@ -238,5 +238,11 @@
 | 23.09.28. | `Level 0` |                 [0 떼기](https://school.programmers.co.kr/learn/courses/30/lessons/181847)                  |            [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/0떼기.js)             |
 | 23.09.29. | `Level 0` |             [뒤에서 5등까지](https://school.programmers.co.kr/learn/courses/30/lessons/181853)              |        [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/뒤에서5등까지.js)         |
 | 23.09.30. | `Level 0` |          [배열의 원소 삭제하기](https://school.programmers.co.kr/learn/courses/30/lessons/181844)           |      [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/배열의원소삭제하기.js)      |
-| 23.10.01. | `Level 0` |               [순서 바꾸기](https://school.programmers.co.kr/learn/courses/30/lessons/181891)               |          [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/순서바꾸기.js)          |
-| 23.10.02. | `Level 0` |              [가까운 1 찾기](https://school.programmers.co.kr/learn/courses/30/lessons/181898)              |         [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/가까운1찾기.js)          |
+
+### 2023년 10월
+
+|   날짜    |  난이도   |                                            문제                                            |                                                   JS 풀이                                                   |
+| :-------: | :-------: | :----------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------: |
+| 23.10.01. | `Level 0` |      [순서 바꾸기](https://school.programmers.co.kr/learn/courses/30/lessons/181891)       |      [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/순서바꾸기.js)      |
+| 23.10.02. | `Level 0` |     [가까운 1 찾기](https://school.programmers.co.kr/learn/courses/30/lessons/181898)      |     [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/가까운1찾기.js)      |
+| 23.10.03. | `Level 0` | [문자열 잘라서 정렬하기](https://school.programmers.co.kr/learn/courses/30/lessons/181866) | [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/문자열잘라서정렬하기.js) |
