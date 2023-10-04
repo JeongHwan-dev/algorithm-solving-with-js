@@ -246,3 +246,4 @@
 | 23.10.01. | `Level 0` |      [순서 바꾸기](https://school.programmers.co.kr/learn/courses/30/lessons/181891)       |      [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/순서바꾸기.js)      |
 | 23.10.02. | `Level 0` |     [가까운 1 찾기](https://school.programmers.co.kr/learn/courses/30/lessons/181898)      |     [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/가까운1찾기.js)      |
 | 23.10.03. | `Level 0` | [문자열 잘라서 정렬하기](https://school.programmers.co.kr/learn/courses/30/lessons/181866) | [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/문자열잘라서정렬하기.js) |
+| 23.10.04. | `Level 0` |      [문자열 섞기](https://school.programmers.co.kr/learn/courses/30/lessons/181942)       |      [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/문자열섞기.js)      |
