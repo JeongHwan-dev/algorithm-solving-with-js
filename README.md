@@ -249,3 +249,4 @@
 | 23.10.04. | `Level 0` |      [문자열 섞기](https://school.programmers.co.kr/learn/courses/30/lessons/181942)       |      [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/문자열섞기.js)      |
 | 23.10.06. | `Level 0` |     [x 사이의 개수](https://school.programmers.co.kr/learn/courses/30/lessons/181867)      |     [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/x사이의개수.js)      |
 | 23.10.07. | `Level 0` |      [글자 지우기](https://school.programmers.co.kr/learn/courses/30/lessons/181900)       |      [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/글자지우기.js)      |
+| 23.10.08. | `Level 0` |      [ad 제거하기](https://school.programmers.co.kr/learn/courses/30/lessons/181870)       |      [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/ad제거하기.js)      |
