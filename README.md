@@ -250,3 +250,4 @@
 | 23.10.06. | `Level 0` |     [x 사이의 개수](https://school.programmers.co.kr/learn/courses/30/lessons/181867)      |     [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/x사이의개수.js)      |
 | 23.10.07. | `Level 0` |      [글자 지우기](https://school.programmers.co.kr/learn/courses/30/lessons/181900)       |      [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/글자지우기.js)      |
 | 23.10.08. | `Level 0` |      [ad 제거하기](https://school.programmers.co.kr/learn/courses/30/lessons/181870)       |      [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/ad제거하기.js)      |
+| 23.10.09. | `Level 0` |      [두 수의 합 2](https://school.programmers.co.kr/learn/courses/30/lessons/181846)      |      [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/두수의합2.js)       |
