@@ -241,13 +241,14 @@
 
 ### 2023년 10월
 
-|   날짜    |  난이도   |                                            문제                                            |                                                   JS 풀이                                                   |
-| :-------: | :-------: | :----------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------: |
-| 23.10.01. | `Level 0` |      [순서 바꾸기](https://school.programmers.co.kr/learn/courses/30/lessons/181891)       |      [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/순서바꾸기.js)      |
-| 23.10.02. | `Level 0` |     [가까운 1 찾기](https://school.programmers.co.kr/learn/courses/30/lessons/181898)      |     [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/가까운1찾기.js)      |
-| 23.10.03. | `Level 0` | [문자열 잘라서 정렬하기](https://school.programmers.co.kr/learn/courses/30/lessons/181866) | [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/문자열잘라서정렬하기.js) |
-| 23.10.04. | `Level 0` |      [문자열 섞기](https://school.programmers.co.kr/learn/courses/30/lessons/181942)       |      [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/문자열섞기.js)      |
-| 23.10.06. | `Level 0` |     [x 사이의 개수](https://school.programmers.co.kr/learn/courses/30/lessons/181867)      |     [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/x사이의개수.js)      |
-| 23.10.07. | `Level 0` |      [글자 지우기](https://school.programmers.co.kr/learn/courses/30/lessons/181900)       |      [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/글자지우기.js)      |
-| 23.10.08. | `Level 0` |      [ad 제거하기](https://school.programmers.co.kr/learn/courses/30/lessons/181870)       |      [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/ad제거하기.js)      |
-| 23.10.09. | `Level 0` |      [두 수의 합 2](https://school.programmers.co.kr/learn/courses/30/lessons/181846)      |      [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/두수의합2.js)       |
+|   날짜    |  난이도   |                                             문제                                             |                                                   JS 풀이                                                   |
+| :-------: | :-------: | :------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------: |
+| 23.10.01. | `Level 0` |       [순서 바꾸기](https://school.programmers.co.kr/learn/courses/30/lessons/181891)        |      [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/순서바꾸기.js)      |
+| 23.10.02. | `Level 0` |      [가까운 1 찾기](https://school.programmers.co.kr/learn/courses/30/lessons/181898)       |     [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/가까운1찾기.js)      |
+| 23.10.03. | `Level 0` |  [문자열 잘라서 정렬하기](https://school.programmers.co.kr/learn/courses/30/lessons/181866)  | [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/문자열잘라서정렬하기.js) |
+| 23.10.04. | `Level 0` |       [문자열 섞기](https://school.programmers.co.kr/learn/courses/30/lessons/181942)        |      [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/문자열섞기.js)      |
+| 23.10.06. | `Level 0` |      [x 사이의 개수](https://school.programmers.co.kr/learn/courses/30/lessons/181867)       |     [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/x사이의개수.js)      |
+| 23.10.07. | `Level 0` |       [글자 지우기](https://school.programmers.co.kr/learn/courses/30/lessons/181900)        |      [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/글자지우기.js)      |
+| 23.10.08. | `Level 0` |       [ad 제거하기](https://school.programmers.co.kr/learn/courses/30/lessons/181870)        |      [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/ad제거하기.js)      |
+| 23.10.09. | `Level 0` |       [두 수의 합 2](https://school.programmers.co.kr/learn/courses/30/lessons/181846)       |      [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/두수의합2.js)       |
+| 23.10.10. | `Level 0` | [빈 배열에 추가, 삭제하기](https://school.programmers.co.kr/learn/courses/30/lessons/181860) | [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/빈배열에추가삭제하기.js) |
