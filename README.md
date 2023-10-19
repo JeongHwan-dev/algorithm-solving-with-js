@@ -255,3 +255,4 @@
 | 23.10.14. | `Level 0` | [문자열이 몇 번 등장하는지 세기](https://school.programmers.co.kr/learn/courses/30/lessons/181871) |      [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/PRO181871.js)       |
 | 23.10.15. | `Level 0` |     [숨어있는 숫자의 덧셈 2](https://school.programmers.co.kr/learn/courses/30/lessons/120864)     |      [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/PRO120864.js)       |
 | 23.10.16. | `Level 0` |    [두 수의 연산값 비교하기](https://school.programmers.co.kr/learn/courses/30/lessons/181938)     |      [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/PRO181938.js)       |
+| 23.10.19. | `Level 0` |  [홀짝에 따라 다른 값 반환하기](https://school.programmers.co.kr/learn/courses/30/lessons/181935)  |      [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/PRO181935.js)       |
