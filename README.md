@@ -259,3 +259,4 @@
 | 23.10.21. | `Level 0` |        [간단한 식 계산하기](https://school.programmers.co.kr/learn/courses/30/lessons/181865)         |      [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/PRO181865.js)       |
 | 23.10.22. | `Level 0` |           [로그인 성공?](https://school.programmers.co.kr/learn/courses/30/lessons/120883)            |      [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/PRO120883.js)       |
 | 23.10.26. | `Level 0` | [배열에서 문자열 대소문자 변환하기](https://school.programmers.co.kr/learn/courses/30/lessons/181875) |      [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/PRO181875.js)       |
+| 23.10.28. | `Level 1` |             [콜라 문제](https://school.programmers.co.kr/learn/courses/30/lessons/132267)             |      [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level1/PRO132267.js)       |
