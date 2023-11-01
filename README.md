@@ -266,3 +266,4 @@
 | 23.10.30. | `Level 0` |             [2의 영역](https://school.programmers.co.kr/learn/courses/30/lessons/181894)              |      [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/PRO181894.js)       |
 | 23.10.31. | `Level 0` |          [9로 나눈 나머지](https://school.programmers.co.kr/learn/courses/30/lessons/181914)          |      [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/PRO181914.js)       |
 | 23.10.31. | `Level 1` |       [가장 가까운 같은 글자](https://school.programmers.co.kr/learn/courses/30/lessons/142086)       |      [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level1/PRO142086.js)       |
+| 23.11.01. | `Level 0` |             [치킨 쿠폰](https://school.programmers.co.kr/learn/courses/30/lessons/120884)             |      [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/PRO120884.js)       |
