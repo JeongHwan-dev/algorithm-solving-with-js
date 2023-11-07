@@ -278,3 +278,4 @@
 | 23.11.04. | `Level 0` |  [배열 만들기 5](https://school.programmers.co.kr/learn/courses/30/lessons/181912)   | [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/PRO181912.js) |
 | 23.11.05. | `Level 0` |     [k의 개수](https://school.programmers.co.kr/learn/courses/30/lessons/120887)     | [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/PRO120887.js) |
 | 23.11.06. | `Level 0` | [문자열 겹쳐쓰기](https://school.programmers.co.kr/learn/courses/30/lessons/181943)  | [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/PRO181943.js) |
+| 23.11.07. | `Level 0` |  [문자 개수 세기](https://school.programmers.co.kr/learn/courses/30/lessons/181902)  | [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/PRO181902.js) |
