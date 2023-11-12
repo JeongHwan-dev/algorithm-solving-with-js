@@ -281,3 +281,4 @@
 | 23.11.07. | `Level 0` |       [문자 개수 세기](https://school.programmers.co.kr/learn/courses/30/lessons/181902)        | [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/PRO181902.js) |
 | 23.11.11. | `Level 0` |         [접미사 배열](https://school.programmers.co.kr/learn/courses/30/lessons/181909)         | [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/PRO181909.js) |
 | 23.11.12. | `Level 0` | [조건에 맞게 수열 변환하기 2](https://school.programmers.co.kr/learn/courses/30/lessons/181881) | [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/PRO181881.js) |
+| 23.11.12. | `Level 0` |        [배열 만들기 4](https://school.programmers.co.kr/learn/courses/30/lessons/181918)        | [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/PRO181918.js) |
