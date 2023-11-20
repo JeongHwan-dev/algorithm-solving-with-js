@@ -288,3 +288,4 @@
 | 23.11.18. | `Level 0` |         [l로 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/181834)          | [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/PRO181834.js) |
 | 23.11.18. | `Level 0` |        [최빈값 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/120812)        | [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/PRO120812.js) |
 | 23.11.19. | `Level 0` |         [합성수 찾기](https://school.programmers.co.kr/learn/courses/30/lessons/120846)         | [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/PRO120846.js) |
+| 23.11.21. | `Level 0` |         [1로 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/181880)          | [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/PRO181880.js) |
