@@ -290,3 +290,4 @@
 | 23.11.19. | `Level 0` |         [합성수 찾기](https://school.programmers.co.kr/learn/courses/30/lessons/120846)         | [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/PRO120846.js) |
 | 23.11.21. | `Level 0` |         [1로 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/181880)          | [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/PRO181880.js) |
 | 23.11.21. | `Level 0` |         [문자열 묶기](https://school.programmers.co.kr/learn/courses/30/lessons/181855)         | [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/PRO181855.js) |
+| 23.11.22. | `Level 0` |       [더 크게 합치기](https://school.programmers.co.kr/learn/courses/30/lessons/181939)        | [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/PRO181939.js) |
