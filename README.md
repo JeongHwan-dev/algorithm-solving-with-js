@@ -291,3 +291,4 @@
 | 23.11.21. | `Level 0` |         [1로 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/181880)          | [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/PRO181880.js) |
 | 23.11.21. | `Level 0` |         [문자열 묶기](https://school.programmers.co.kr/learn/courses/30/lessons/181855)         | [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/PRO181855.js) |
 | 23.11.22. | `Level 0` |       [더 크게 합치기](https://school.programmers.co.kr/learn/courses/30/lessons/181939)        | [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/PRO181939.js) |
+| 23.11.23. | `Level 0` |   [구슬을 나누는 경우의 수](https://school.programmers.co.kr/learn/courses/30/lessons/120840)   | [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/PRO120840.js) |
