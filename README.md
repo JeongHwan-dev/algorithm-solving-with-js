@@ -294,3 +294,4 @@
 | 23.11.23. | `Level 0` |   [구슬을 나누는 경우의 수](https://school.programmers.co.kr/learn/courses/30/lessons/120840)   | [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/PRO120840.js) |
 | 23.11.24. | `Level 0` |     [콜라츠 수열 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/181919)      | [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/PRO181919.js) |
 | 23.11.25. | `Level 0` |    [특별한 이차원 배열 2](https://school.programmers.co.kr/learn/courses/30/lessons/181831)     | [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/PRO181831.js) |
+| 23.11.26. | `Level 0` |     [삼각형의 완성조건 1](https://school.programmers.co.kr/learn/courses/30/lessons/120889)     | [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/PRO120889.js) |
