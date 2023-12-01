@@ -299,3 +299,9 @@
 | 23.11.28. | `Level 0` |         [분수의 덧셈](https://school.programmers.co.kr/learn/courses/30/lessons/120808)         | [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/PRO120808.js) |
 | 23.11.29. | `Level 0` |      [2차원으로 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/120842)       | [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/PRO120842.js) |
 | 23.11.30. | `Level 0` |          [팩토리얼](https://school.programmers.co.kr/learn/courses/30/lessons/120848)           | [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/PRO120848.js) |
+
+### 2023년 12월
+
+|   날짜    |  난이도   |                                              문제                                               |                                             JS 풀이                                              |
+| :-------: | :-------: | :---------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------: |
+| 23.12.01. | `Level 0` | [이차원 배열 대각선 순회하기](https://school.programmers.co.kr/learn/courses/30/lessons/181829) | [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/PRO181829.js) |
