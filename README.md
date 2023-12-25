@@ -309,3 +309,4 @@
 | 23.12.05. | `Level 0` | [등차수열의 특정한 항만 더하기](https://school.programmers.co.kr/learn/courses/30/lessons/181931) | [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/PRO181931.js) |
 | 23.12.09. | `Level 0` |          [커피 심부름](https://school.programmers.co.kr/learn/courses/30/lessons/181837)          | [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/PRO181837.js) |
 | 23.12.23. | `Level 0` |       [수열과 구간 쿼리1](https://school.programmers.co.kr/learn/courses/30/lessons/181883)       | [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/PRO181883.js) |
+| 23.12.25. | `Level 0` |         [주사위 게임 1](https://school.programmers.co.kr/learn/courses/30/lessons/181839)         | [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/PRO181839.js) |
