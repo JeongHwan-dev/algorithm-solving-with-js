@@ -314,3 +314,9 @@
 | 23.12.27. | `Level 0` |          [컨트롤 제트](https://school.programmers.co.kr/learn/courses/30/lessons/120853)          | [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/PRO120853.js) |
 | 23.12.30. | `Level 0` |     [문자열 여러 번 뒤집기](https://school.programmers.co.kr/learn/courses/30/lessons/181913)     | [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/PRO181913.js) |
 | 23.12.31. | `Level 0` |         [배열 만들기 2](https://school.programmers.co.kr/learn/courses/30/lessons/181921)         | [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/PRO181921.js) |
+
+### 2024년 01월
+
+|   날짜    |  난이도   |                                      문제                                       |                                             JS 풀이                                              |
+| :-------: | :-------: | :-----------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------: |
+| 24.01.01. | `Level 0` | [특이한 정렬](https://school.programmers.co.kr/learn/courses/30/lessons/120880) | [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/PRO120880.js) |
