@@ -317,6 +317,7 @@
 
 ### 2024년 01월
 
-|   날짜    |  난이도   |                                      문제                                       |                                             JS 풀이                                              |
-| :-------: | :-------: | :-----------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------: |
-| 24.01.01. | `Level 0` | [특이한 정렬](https://school.programmers.co.kr/learn/courses/30/lessons/120880) | [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/PRO120880.js) |
+|   날짜    |  난이도   |                                            문제                                            |                                             JS 풀이                                              |
+| :-------: | :-------: | :----------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------: |
+| 24.01.01. | `Level 0` |      [특이한 정렬](https://school.programmers.co.kr/learn/courses/30/lessons/120880)       | [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/PRO120880.js) |
+| 24.01.02. | `Level 0` | [무작위로 K개의 수 뽑기](https://school.programmers.co.kr/learn/courses/30/lessons/181858) | [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/PRO181858.js) |
