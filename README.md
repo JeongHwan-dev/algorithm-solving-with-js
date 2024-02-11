@@ -325,3 +325,9 @@
 | 24.01.07. | `Level 0` |                [세 개의 구분자](https://school.programmers.co.kr/learn/courses/30/lessons/181862)                 | [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/PRO181862.js) |
 | 24.01.08. | `Level 0` |                 [배열 조각하기](https://school.programmers.co.kr/learn/courses/30/lessons/181893)                 | [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/PRO181893.js) |
 | 24.01.27. | `Level 0` |              [수열과 구간 쿼리 3](https://school.programmers.co.kr/learn/courses/30/lessons/181924)               | [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/PRO181924.js) |
+
+### 2024년 01월
+
+|   날짜    |  난이도   |                                      문제                                       |                                             JS 풀이                                              |
+| :-------: | :-------: | :-----------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------: |
+| 24.02.11. | `Level 0` | [조건 문자열](https://school.programmers.co.kr/learn/courses/30/lessons/181934) | [JS](https://github.com/JeongHwan-dev/Algorithm-solving-with-js/blob/master/Level0/PRO181934.js) |
